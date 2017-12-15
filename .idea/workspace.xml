@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6e8dda17-1cfc-4514-b6ec-7b81d2add472" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/getdoi/__init__.py" afterPath="$PROJECT_DIR$/getdoi/__init__.py" />
-      <change beforePath="$PROJECT_DIR$/getdoi/reader/readEnteredText.py" afterPath="$PROJECT_DIR$/getdoi/reader/readEnteredText.py" />
-      <change beforePath="$PROJECT_DIR$/getdoi/reader/readTextFile.py" afterPath="$PROJECT_DIR$/getdoi/reader/ioTextFile.py" />
+      <change beforePath="$PROJECT_DIR$/scripts/getdoi" afterPath="$PROJECT_DIR$/scripts/getdoi" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -16,11 +13,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="__init__.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="__init__.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/getdoi/__init__.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="142" column="36" lean-forward="false" selection-start-line="142" selection-start-column="36" selection-end-line="142" selection-end-column="36" />
+            <state relative-caret-position="343">
+              <caret line="212" column="0" lean-forward="true" selection-start-line="212" selection-start-column="0" selection-end-line="223" selection-end-column="21" />
               <folding>
                 <element signature="e#773#783#0" expanded="true" />
               </folding>
@@ -90,11 +87,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="getdoi" pinned="false" current-in-tab="false">
+      <file leaf-file-name="getdoi" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/scripts/getdoi">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2708">
-              <caret line="219" column="0" lean-forward="false" selection-start-line="219" selection-start-column="0" selection-end-line="219" selection-end-column="0" />
+            <state relative-caret-position="182">
+              <caret line="37" column="23" lean-forward="false" selection-start-line="37" selection-start-column="23" selection-end-line="37" selection-end-column="23" />
               <folding />
             </state>
           </provider>
@@ -507,10 +504,10 @@
       <find>__find_anchor</find>
       <find>GetArticleURLControllerImpl</find>
       <find>__decision_is_file_path</find>
-      <find>__usecase_get_doi_using_citation</find>
       <find>__controller_select_work</find>
       <find>copyright</find>
       <find>TranslateEscapeSequence</find>
+      <find>__usecase_get_doi_using_citation</find>
     </findStrings>
     <replaceStrings>
       <replace>PMC</replace>
@@ -577,7 +574,6 @@
         <option value="$PROJECT_DIR$/getdoi/scraping/beautifulSoupModel.py" />
         <option value="$PROJECT_DIR$/getdoi/getDOIFromURL/getDOIFromURLControllerStandAlone.py" />
         <option value="$PROJECT_DIR$/getdoi/notice.py" />
-        <option value="$PROJECT_DIR$/scripts/getdoi" />
         <option value="$PROJECT_DIR$/getdoi/getArticleURL/getArticleURLController.py" />
         <option value="$PROJECT_DIR$/getdoi/getDOIFromURL/getDOIFromURLController.py" />
         <option value="$PROJECT_DIR$/setup.py" />
@@ -586,6 +582,7 @@
         <option value="$PROJECT_DIR$/getdoi/reader/readEnteredText.py" />
         <option value="$PROJECT_DIR$/getdoi/reader/ioTextFile.py" />
         <option value="$PROJECT_DIR$/getdoi/__init__.py" />
+        <option value="$PROJECT_DIR$/scripts/getdoi" />
       </list>
     </option>
   </component>
@@ -631,6 +628,11 @@
               <item name="getdoi" type="462c0819:PsiDirectoryNode" />
               <item name="getdoi" type="462c0819:PsiDirectoryNode" />
               <item name="reader" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="getdoi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="getdoi" type="462c0819:PsiDirectoryNode" />
+              <item name="scripts" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -1278,14 +1280,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/getdoi">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2708">
-          <caret line="219" column="0" lean-forward="false" selection-start-line="219" selection-start-column="0" selection-end-line="219" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/getdoi/getDOIFromURL/gettableDOI.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="282">
@@ -1319,14 +1313,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/getdoi/scraping/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -1382,13 +1368,29 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/getdoi/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="142" column="36" lean-forward="false" selection-start-line="142" selection-start-column="36" selection-end-line="142" selection-end-column="36" />
+        <state relative-caret-position="343">
+          <caret line="212" column="0" lean-forward="true" selection-start-line="212" selection-start-column="0" selection-end-line="223" selection-end-column="21" />
           <folding>
             <element signature="e#773#783#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/getdoi">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="37" column="23" lean-forward="false" selection-start-line="37" selection-start-column="23" selection-end-line="37" selection-end-column="23" />
+          <folding />
         </state>
       </provider>
     </entry>
