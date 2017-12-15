@@ -14,7 +14,7 @@ with open('LICENSE') as f:
 setup(
     name='getdoi',
     version='0.1.0',
-    description='Get journal\'s DOI from APA style citation text.',
+    description='Get journal\'s DOI from article citation text.',
     long_description=readme,
     classifiers=[
         "Development Status :: 2 - Pre-Alpha",
