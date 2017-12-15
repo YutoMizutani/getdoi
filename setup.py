@@ -27,7 +27,7 @@ setup(
     ],
     author='Yuto Mizutani',
     author_email='yuto.mizutani.dev@gmail.com',
-    install_requires=['urllib', 'beautifulsoup4'],
+    install_requires=['beautifulsoup4'],
     url='https://github.com/',
     license=license,
     packages=find_packages(exclude=('tests', 'docs')),
