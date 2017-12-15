@@ -36,7 +36,7 @@ import time
 """ Third party library """
 """ Local library """
 from getdoi.reader.readEnteredText import ReadEnteredTextImpl
-from getdoi.reader.readTextFile import ReadTextFile
+from getdoi.reader.ioTextFile import IOTextFile
 from getdoi.translator.translateEscapeSequence import TranslateEscapeSequence
 from getdoi.articleinfo.articleInfo import ArticleInfo
 from getdoi.articleinfo.getArticleInfoFromCitation.getArticleInfoFromCitationController import GetArticleInfoFromCitationControllerImpl
@@ -121,19 +121,24 @@ class Main:
     def __controller_get_doi(self, argv: str):
         if self.__decision_is_file_path(argv):
             if self.__decision_is_txt_file(argv):
-                self.__usecase_get_doi_using_txt_file(argv)
+                escaper = TranslateEscapeSequence()
+                path = escaper.unescape(argv)
+                self.__usecase_get_doi_using_txt_file(path)
             else:
                 print('Error! Path: \"{0}\" is invalid.'.format(argv))
         else:
-            self.__usecase_get_doi_using_citation(argv)
+            citation = argv
+            self.__usecase_get_doi_using_citation(citation)
 
     #### usecase
     def __usecase_get_doi_using_txt_file(self, path: str):
-        escaper = TranslateEscapeSequence()
-        unescaped_path = escaper.unescape(path)
+        io = IOTextFile()
+        if io.decision_txt_file(path):
+            citations = io.open(path)
+            for citation in citations:
+                self.__usecase_get_doi_using_citation(citation, is_confirm=False)
 
-    def __usecase_get_doi_using_citation(self, citation: str):
-        article_info = ArticleInfo
+    def __usecase_get_doi_using_citation(self, citation: str, is_confirm: bool=True):
         article_info_getter = GetArticleInfoFromCitationControllerImpl()
         article_info = article_info_getter.get_all(citation=citation)
         if article_info is None:
@@ -147,7 +152,7 @@ class Main:
             print(citation)
         print('First author: {0}'.format(article_info.first_author))
         print('Main title: {0}'.format(article_info.article_main_title))
-        self.__proceed()
+        if is_confirm:self.__proceed()
         article_url_getter = GetArticleURLControllerImpl()
         article_url = article_url_getter.get(article_info=article_info)
         if article_url is None or article_url == '':
@@ -156,7 +161,7 @@ class Main:
             print('Main title: {0}'.format(article_info.article_main_title))
             return
         print('Article URL: {0}'.format(article_url))
-        self.__proceed()
+        if is_confirm:self.__proceed()
         doi_getter = GetDOIFromURLControllerImpl()
         doi = doi_getter.get_url(url=article_url)
         if doi is None:
@@ -205,7 +210,7 @@ class Main:
         # print(searchWord in text)
         return keyword in text
 
-# =============================================================================================================
+# ======================================================================================================================
 
 
 if __name__ == '__main__':
