@@ -183,7 +183,7 @@ class Main:
         while text[0] == ' ':
             text = text[1:]
         while text[-1] == ' ':
-            text = text[:-2]
+            text = text[:-1]
         return text
 
     #### model

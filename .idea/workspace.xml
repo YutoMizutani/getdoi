@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="6e8dda17-1cfc-4514-b6ec-7b81d2add472" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/getdoi/__init__.py" afterPath="$PROJECT_DIR$/getdoi/__init__.py" />
+      <change beforePath="$PROJECT_DIR$/getdoi/articleinfo/getArticleInfoFromCitation/getArticleInfoFromCitationControllerStandAlone.py" afterPath="$PROJECT_DIR$/getdoi/articleinfo/getArticleInfoFromCitation/getArticleInfoFromCitationControllerStandAlone.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -13,11 +14,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="__init__.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="__init__.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/getdoi/__init__.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="356">
-              <caret line="103" column="48" lean-forward="true" selection-start-line="103" selection-start-column="48" selection-end-line="103" selection-end-column="48" />
+            <state relative-caret-position="323">
+              <caret line="185" column="27" lean-forward="false" selection-start-line="185" selection-start-column="27" selection-end-line="185" selection-end-column="27" />
               <folding>
                 <element signature="e#773#783#0" expanded="true" />
               </folding>
@@ -47,11 +48,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="getArticleInfoFromCitationControllerStandAlone.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="getArticleInfoFromCitationControllerStandAlone.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/getdoi/articleinfo/getArticleInfoFromCitation/getArticleInfoFromCitationControllerStandAlone.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="256">
-              <caret line="121" column="28" lean-forward="true" selection-start-line="121" selection-start-column="28" selection-end-line="125" selection-end-column="36" />
+            <state relative-caret-position="296">
+              <caret line="125" column="35" lean-forward="false" selection-start-line="125" selection-start-column="35" selection-end-line="125" selection-end-column="35" />
               <folding />
             </state>
           </provider>
@@ -478,7 +479,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>print(</find>
       <find>IS_SSL_STATE</find>
       <find>get_anchor_links</find>
       <find>text[</find>
@@ -508,6 +508,7 @@
       <find>copyright</find>
       <find>TranslateEscapeSequence</find>
       <find>__usecase_get_doi_using_citation</find>
+      <find>__controller_work_using_arguments</find>
     </findStrings>
     <replaceStrings>
       <replace>PMC</replace>
@@ -566,7 +567,6 @@
         <option value="$PROJECT_DIR$/getdoi/getArticleInfoFromCitationControllerStandAlone.py" />
         <option value="$PROJECT_DIR$/getdoi/tests/test_main.py" />
         <option value="$PROJECT_DIR$/getdoi/articleinfo/getArticleInfoFromCitation/getArticleInfoFromCitationController.py" />
-        <option value="$PROJECT_DIR$/getdoi/articleinfo/getArticleInfoFromCitation/getArticleInfoFromCitationControllerStandAlone.py" />
         <option value="$PROJECT_DIR$/getdoi/articleinfo/__init__.py" />
         <option value="$PROJECT_DIR$/getdoi/getArticleURL/getArticleURLControllerStandAlone.py" />
         <option value="$PROJECT_DIR$/getdoi/getArticleURL/googleScholar.py" />
@@ -583,6 +583,7 @@
         <option value="$PROJECT_DIR$/getdoi/reader/ioTextFile.py" />
         <option value="$PROJECT_DIR$/scripts/getdoi" />
         <option value="$PROJECT_DIR$/getdoi/__init__.py" />
+        <option value="$PROJECT_DIR$/getdoi/articleinfo/getArticleInfoFromCitation/getArticleInfoFromCitationControllerStandAlone.py" />
       </list>
     </option>
   </component>
@@ -1381,14 +1382,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/getdoi/articleinfo/getArticleInfoFromCitation/getArticleInfoFromCitationControllerStandAlone.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="256">
-          <caret line="121" column="28" lean-forward="true" selection-start-line="121" selection-start-column="28" selection-end-line="125" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/scripts/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1399,11 +1392,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/getdoi/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="356">
-          <caret line="103" column="48" lean-forward="true" selection-start-line="103" selection-start-column="48" selection-end-line="103" selection-end-column="48" />
+        <state relative-caret-position="323">
+          <caret line="185" column="27" lean-forward="false" selection-start-line="185" selection-start-column="27" selection-end-line="185" selection-end-column="27" />
           <folding>
             <element signature="e#773#783#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/getdoi/articleinfo/getArticleInfoFromCitation/getArticleInfoFromCitationControllerStandAlone.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="296">
+          <caret line="125" column="35" lean-forward="false" selection-start-line="125" selection-start-column="35" selection-end-line="125" selection-end-column="35" />
+          <folding />
         </state>
       </provider>
     </entry>

@@ -123,7 +123,7 @@ class GetArticleInfoFromCitationControllerStandAloneImpl:
                 while text[0] == ' ':
                     text = text[1:]
                 while text[-1] == ' ':
-                    text = text[:-2]
+                    text = text[:-1]
 
                 if text == 'h' or text[0:2] == '-h':
                     print('Hide help!')
