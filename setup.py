@@ -28,9 +28,10 @@ setup(
     author='Yuto Mizutani',
     author_email='yuto.mizutani.dev@gmail.com',
     install_requires=['beautifulsoup4'],
-    url='https://github.com/',
+    url='https://github.com/YutoMizutani/getdoi',
     license=license,
     packages=find_packages(exclude=('tests', 'docs')),
-    test_suite='tests'
+    test_suite='tests',
+    scripts=['scripts/getdoi']
 )
 

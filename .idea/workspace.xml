@@ -2,6 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6e8dda17-1cfc-4514-b6ec-7b81d2add472" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/scripts/__init__.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/scripts/getdoi" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/getdoi/__init__.py" afterPath="$PROJECT_DIR$/getdoi/__init__.py" />
       <change beforePath="$PROJECT_DIR$/setup.py" afterPath="$PROJECT_DIR$/setup.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,8 +20,8 @@
       <file leaf-file-name="__init__.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/getdoi/__init__.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1909">
-              <caret line="186" column="104" lean-forward="true" selection-start-line="186" selection-start-column="104" selection-end-line="186" selection-end-column="104" />
+            <state relative-caret-position="3135">
+              <caret line="209" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="219" selection-end-column="0" />
               <folding>
                 <element signature="e#773#783#0" expanded="true" />
               </folding>
@@ -77,11 +81,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="setup.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="setup.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/setup.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="21" column="48" lean-forward="true" selection-start-line="21" selection-start-column="48" selection-end-line="21" selection-end-column="48" />
+            <state relative-caret-position="430">
+              <caret line="34" column="28" lean-forward="false" selection-start-line="34" selection-start-column="28" selection-end-line="34" selection-end-column="28" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="getdoi" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/scripts/getdoi">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="3285">
+              <caret line="219" column="0" lean-forward="true" selection-start-line="219" selection-start-column="0" selection-end-line="219" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -91,7 +105,7 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="15">
-              <caret line="1" column="47" lean-forward="true" selection-start-line="1" selection-start-column="47" selection-end-line="1" selection-end-column="47" />
+              <caret line="1" column="47" lean-forward="false" selection-start-line="1" selection-start-column="47" selection-end-line="1" selection-end-column="47" />
               <folding />
             </state>
           </provider>
@@ -451,7 +465,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>__find_network_path_reference_format</find>
       <find>__IS_SSL_STATE</find>
       <find>print(</find>
       <find>IS_SSL_STATE</find>
@@ -470,7 +483,6 @@
       <find>Citation</find>
       <find>__decision_title_match_links</find>
       <find>Main</find>
-      <find>__controller_select_work</find>
       <find>__controller_work_on_terminal</find>
       <find>GetArticleURLControllerStandAloneImpl</find>
       <find>GetDOIFromURLControllerImpl</find>
@@ -481,6 +493,8 @@
       <find>GetArticleURLControllerImpl</find>
       <find>__decision_is_file_path</find>
       <find>__usecase_get_doi_using_citation</find>
+      <find>__controller_select_work</find>
+      <find>copyright</find>
     </findStrings>
     <replaceStrings>
       <replace>PMC</replace>
@@ -505,7 +519,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/getdoi/translator/translateEscapeSequence.py" />
         <option value="$PROJECT_DIR$/getdoi/getDOIFromURL/getDOIFromURLPresenter.py" />
         <option value="$PROJECT_DIR$/getdoi/getArticleInfoFromCitationFormat/__init__.py" />
         <option value="$PROJECT_DIR$/getdoi/getArticleInfoFromCitationFormat/getArticleInfoFromCitationFormatController.py" />
@@ -553,14 +566,16 @@
         <option value="$PROJECT_DIR$/getdoi/getDOIFromURL/getDOIFromURLControllerStandAlone.py" />
         <option value="$PROJECT_DIR$/getdoi/getArticleURL/getArticleURLController.py" />
         <option value="$PROJECT_DIR$/getdoi/notice.py" />
-        <option value="$PROJECT_DIR$/getdoi/__init__.py" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/getdoi/__init__.py" />
         <option value="$PROJECT_DIR$/setup.py" />
+        <option value="$PROJECT_DIR$/scripts/getdoi" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="width" value="1440" />
+    <option name="x" value="52" />
+    <option name="width" value="1388" />
     <option name="height" value="900" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -590,6 +605,11 @@
               <item name="getdoi" type="b2602c69:ProjectViewProjectNode" />
               <item name="getdoi" type="462c0819:PsiDirectoryNode" />
               <item name="getdoi" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="getdoi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="getdoi" type="462c0819:PsiDirectoryNode" />
+              <item name="scripts" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -894,7 +914,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33529413" sideWeight="0.50277776" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32941177" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29764706" sideWeight="0.49722221" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29764706" sideWeight="0.49722221" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -941,13 +961,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/getdoi/tests/test_readTextFile.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/getdoi/tests/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1290,16 +1303,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/getdoi/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1909">
-          <caret line="186" column="104" lean-forward="true" selection-start-line="186" selection-start-column="104" selection-end-line="186" selection-end-column="104" />
-          <folding>
-            <element signature="e#773#783#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/LICENSE">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
@@ -1327,7 +1330,7 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
-          <caret line="1" column="47" lean-forward="true" selection-start-line="1" selection-start-column="47" selection-end-line="1" selection-end-column="47" />
+          <caret line="1" column="47" lean-forward="false" selection-start-line="1" selection-start-column="47" selection-end-line="1" selection-end-column="47" />
           <folding />
         </state>
       </provider>
@@ -1345,8 +1348,26 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/setup.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="48" lean-forward="true" selection-start-line="21" selection-start-column="48" selection-end-line="21" selection-end-column="48" />
+        <state relative-caret-position="430">
+          <caret line="34" column="28" lean-forward="false" selection-start-line="34" selection-start-column="28" selection-end-line="34" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/getdoi/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3135">
+          <caret line="209" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="219" selection-end-column="0" />
+          <folding>
+            <element signature="e#773#783#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/getdoi">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3285">
+          <caret line="219" column="0" lean-forward="true" selection-start-line="219" selection-start-column="0" selection-end-line="219" selection-end-column="0" />
           <folding />
         </state>
       </provider>
