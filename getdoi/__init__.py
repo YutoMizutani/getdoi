@@ -101,6 +101,7 @@ class Main:
             print('Error! Arguments are invalid.')
             return
         for argv in arguments:
+            argv = self.__translate_blanks(argv)
             print('>> {0}'.format(argv))
             self.__controller_get_doi(argv)
 
@@ -176,6 +177,14 @@ class Main:
         # wait 60-s
         print('============  wait 60 seconds =====================================================================')
         time.sleep(60.0)
+
+    #### translator
+    def __translate_blanks(self, text: str)->str:
+        while text[0] == ' ':
+            text = text[1:]
+        while text[-1] == ' ':
+            text = text[:-2]
+        return text
 
     #### model
     def __proceed(self)->bool or None:

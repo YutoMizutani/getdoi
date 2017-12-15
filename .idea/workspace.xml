@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6e8dda17-1cfc-4514-b6ec-7b81d2add472" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/scripts/getdoi" afterPath="$PROJECT_DIR$/scripts/getdoi" />
+      <change beforePath="$PROJECT_DIR$/getdoi/__init__.py" afterPath="$PROJECT_DIR$/getdoi/__init__.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -13,11 +13,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="__init__.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="__init__.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/getdoi/__init__.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="343">
-              <caret line="212" column="0" lean-forward="true" selection-start-line="212" selection-start-column="0" selection-end-line="223" selection-end-column="21" />
+            <state relative-caret-position="356">
+              <caret line="103" column="48" lean-forward="true" selection-start-line="103" selection-start-column="48" selection-end-line="103" selection-end-column="48" />
               <folding>
                 <element signature="e#773#783#0" expanded="true" />
               </folding>
@@ -50,8 +50,8 @@
       <file leaf-file-name="getArticleInfoFromCitationControllerStandAlone.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/getdoi/articleinfo/getArticleInfoFromCitation/getArticleInfoFromCitationControllerStandAlone.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1245">
-              <caret line="83" column="21" lean-forward="false" selection-start-line="83" selection-start-column="21" selection-end-line="83" selection-end-column="21" />
+            <state relative-caret-position="256">
+              <caret line="121" column="28" lean-forward="true" selection-start-line="121" selection-start-column="28" selection-end-line="125" selection-end-column="36" />
               <folding />
             </state>
           </provider>
@@ -87,7 +87,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="getdoi" pinned="false" current-in-tab="true">
+      <file leaf-file-name="getdoi" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/scripts/getdoi">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="182">
@@ -130,7 +130,7 @@
       <file leaf-file-name="articleInfo.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/getdoi/articleinfo/articleInfo.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
+            <state relative-caret-position="385">
               <caret line="72" column="30" lean-forward="false" selection-start-line="72" selection-start-column="30" selection-end-line="72" selection-end-column="30" />
               <folding />
             </state>
@@ -320,7 +320,7 @@
       <file leaf-file-name="getArticleInfoFromCitationController.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/getdoi/articleinfo/getArticleInfoFromCitation/getArticleInfoFromCitationController.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3120">
+            <state relative-caret-position="370">
               <caret line="208" column="0" lean-forward="false" selection-start-line="208" selection-start-column="0" selection-end-line="209" selection-end-column="54" />
               <folding />
             </state>
@@ -330,7 +330,7 @@
       <file leaf-file-name="gettableArticleInfo.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/getdoi/articleinfo/getArticleInfoFromCitation/gettableArticleInfo.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
+            <state relative-caret-position="15">
               <caret line="6" column="20" lean-forward="false" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
               <folding />
             </state>
@@ -390,7 +390,7 @@
       <file leaf-file-name="ioTextFile.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/getdoi/reader/ioTextFile.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="476">
+            <state relative-caret-position="1140">
               <caret line="76" column="25" lean-forward="false" selection-start-line="76" selection-start-column="8" selection-end-line="76" selection-end-column="25" />
               <folding />
             </state>
@@ -581,8 +581,8 @@
         <option value="$PROJECT_DIR$/getdoi/reader/readTextFile.py" />
         <option value="$PROJECT_DIR$/getdoi/reader/readEnteredText.py" />
         <option value="$PROJECT_DIR$/getdoi/reader/ioTextFile.py" />
-        <option value="$PROJECT_DIR$/getdoi/__init__.py" />
         <option value="$PROJECT_DIR$/scripts/getdoi" />
+        <option value="$PROJECT_DIR$/getdoi/__init__.py" />
       </list>
     </option>
   </component>
@@ -622,6 +622,19 @@
               <item name="getdoi" type="b2602c69:ProjectViewProjectNode" />
               <item name="getdoi" type="462c0819:PsiDirectoryNode" />
               <item name="getdoi" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="getdoi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="getdoi" type="462c0819:PsiDirectoryNode" />
+              <item name="getdoi" type="462c0819:PsiDirectoryNode" />
+              <item name="articleinfo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="getdoi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="getdoi" type="462c0819:PsiDirectoryNode" />
+              <item name="getdoi" type="462c0819:PsiDirectoryNode" />
+              <item name="articleinfo" type="462c0819:PsiDirectoryNode" />
+              <item name="getArticleInfoFromCitation" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="getdoi" type="b2602c69:ProjectViewProjectNode" />
@@ -1067,14 +1080,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/getdoi/articleinfo/getArticleInfoFromCitation/gettableArticleInfo.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="20" lean-forward="false" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/getdoi/translator/translateEscapeSequence.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1084,22 +1089,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/getdoi/translator/translatorKebabCase.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/getdoi/reader/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/getdoi/articleinfo/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -1157,14 +1146,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/getdoi/articleinfo/getArticleInfoFromCitation/getArticleInfoFromCitationController.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3120">
-          <caret line="208" column="0" lean-forward="false" selection-start-line="208" selection-start-column="0" selection-end-line="209" selection-end-column="54" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/getdoi/scraping/beautifulSoupModel.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="990">
@@ -1182,14 +1163,6 @@
           <folding>
             <element signature="e#828#864#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/getdoi/articleinfo/getArticleInfoFromCitation/getArticleInfoFromCitationControllerStandAlone.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1245">
-          <caret line="83" column="21" lean-forward="false" selection-start-line="83" selection-start-column="21" selection-end-line="83" selection-end-column="21" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1288,14 +1261,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/getdoi/articleinfo/articleInfo.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="72" column="30" lean-forward="false" selection-start-line="72" selection-start-column="30" selection-end-line="72" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/getdoi/getDOIFromURL/getDOIFromURLController.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="406">
@@ -1360,10 +1325,66 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/getdoi">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="37" column="23" lean-forward="false" selection-start-line="37" selection-start-column="23" selection-end-line="37" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/getdoi/reader/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/getdoi/reader/ioTextFile.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
+        <state relative-caret-position="1140">
           <caret line="76" column="25" lean-forward="false" selection-start-line="76" selection-start-column="8" selection-end-line="76" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/getdoi/articleinfo/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/getdoi/articleinfo/articleInfo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="385">
+          <caret line="72" column="30" lean-forward="false" selection-start-line="72" selection-start-column="30" selection-end-line="72" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/getdoi/articleinfo/getArticleInfoFromCitation/gettableArticleInfo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="6" column="20" lean-forward="false" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/getdoi/articleinfo/getArticleInfoFromCitation/getArticleInfoFromCitationController.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="370">
+          <caret line="208" column="0" lean-forward="false" selection-start-line="208" selection-start-column="0" selection-end-line="209" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/getdoi/articleinfo/getArticleInfoFromCitation/getArticleInfoFromCitationControllerStandAlone.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="256">
+          <caret line="121" column="28" lean-forward="true" selection-start-line="121" selection-start-column="28" selection-end-line="125" selection-end-column="36" />
           <folding />
         </state>
       </provider>
@@ -1378,19 +1399,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/getdoi/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="343">
-          <caret line="212" column="0" lean-forward="true" selection-start-line="212" selection-start-column="0" selection-end-line="223" selection-end-column="21" />
+        <state relative-caret-position="356">
+          <caret line="103" column="48" lean-forward="true" selection-start-line="103" selection-start-column="48" selection-end-line="103" selection-end-column="48" />
           <folding>
             <element signature="e#773#783#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/getdoi">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="37" column="23" lean-forward="false" selection-start-line="37" selection-start-column="23" selection-end-line="37" selection-end-column="23" />
-          <folding />
         </state>
       </provider>
     </entry>
