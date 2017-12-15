@@ -64,18 +64,18 @@ class GetArticleURLControllerImpl(GettableArticleURL):
 
     # -- controller --
     def get(self, *, article_info: ArticleInfo)->str or None:
-        site = GoogleScholar()
-        result = site.get(article_info=article_info)
-        return result
-        # search_type = self.get_search_type()
-        # if search_type is None:
-        #     return None
-        # search_impl = search_type.value()
-        # if search_impl is not None:
-        #     info = search_impl.get(article_info=article_info)
-        #     return info
-        # else:
-        #     return None
+        # site = GoogleScholar()
+        # result = site.get(article_info=article_info)
+        # return result
+        search_type = self.get_search_type()
+        if search_type is None:
+            return None
+        search_impl = search_type.value()
+        if search_impl is not None:
+            info = search_impl.get(article_info=article_info)
+            return info
+        else:
+            return None
 
     def get_search_type(self):
         # FIX (自動で検索サイトを特定する必要はない？取得失敗で変更？)
@@ -92,7 +92,7 @@ class GetArticleURLControllerImpl(GettableArticleURL):
         if type == SearchType.GOOGLE_SCHOLAR:
             type_str = 'Google Scholar'
 
-        print('Search format: {0}'.format(type_str))
+        print('Search site: {0}'.format(type_str))
 
     def __decision_include_keyword(self, *, keyword: str, text: str) -> bool:
         """[text]から[keywordを検索] -> Bool """

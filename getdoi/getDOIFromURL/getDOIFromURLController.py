@@ -112,7 +112,7 @@ class GetDOIFromURLControllerImpl(GettableDOI):
             if base_url is None:
                 continue
             if self.__decision_include_keyword(keyword=base_url, text=url):
-                print('Journal type: {0}'.format(self.__get_type_str(type)))
+                print('Journal site: {0}'.format(self.__get_type_str(type)))
                 return type
         print('getMatchJournalURL(): no match journal')
         return None
