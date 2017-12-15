@@ -1,7 +1,7 @@
 # getdoi
 
 Get journal's DOI from article citation text.
-論文引用形式を貼り付けると，ジャーナルサイトを検索し，DOIを出力します。
+論文引用形式を貼り付けると，ジャーナルサイトを検索し，DOIを出力します。  
 
 
 # NOTICE
