@@ -102,7 +102,6 @@ class Main:
             return
         for argv in arguments:
             argv = self.__translate_blanks(argv)
-            print('>> {0}'.format(argv))
             self.__controller_get_doi(argv)
 
     def __controller_work_on_terminal(self):
@@ -140,6 +139,7 @@ class Main:
                 self.__usecase_get_doi_using_citation(citation, is_confirm=False)
 
     def __usecase_get_doi_using_citation(self, citation: str, is_confirm: bool=True):
+        print('>> {0}'.format(citation))
         article_info_getter = GetArticleInfoFromCitationControllerImpl()
         article_info = article_info_getter.get_all(citation=citation)
         if article_info is None:
@@ -223,6 +223,7 @@ class Main:
 
 
 if __name__ == '__main__':
+    # /Users/ym/Downloads/Untitled.txt
     # get arguments
     arguments = sys.argv
     # If it has arguments then get DOI using the arguments

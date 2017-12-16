@@ -50,7 +50,7 @@ class IOTextFile:
             opened_file = open(path)
             text_array = opened_file.readlines()  # 1行毎にファイル終端まで全て読む(改行文字も含まれる)
             opened_file.close()
-            result = [text.replace('\r').replace('\n') for text in text_array]
+            result = [text.replace('\r', '').replace('\n', '') for text in text_array]
         except:
             if is_log:print('Error! cannot read text file from {0}.'.format(path))
             return None
