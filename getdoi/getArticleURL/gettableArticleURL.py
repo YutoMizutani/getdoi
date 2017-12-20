@@ -31,8 +31,8 @@ Python: 3.6.1
 
 """ Standard library """
 """ Third party library """
+from articleinfo.articleInfo import ArticleInfo
 """ Local library """
-from getdoi.articleinfo.articleInfo import ArticleInfo
 
 # === CONSTANTS ========================================================================================================
 

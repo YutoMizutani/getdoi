@@ -35,10 +35,10 @@ Python: 3.6.1
 
 """ Standard library """
 """ Third party library """
+from articleinfo.articleInfo import ArticleInfo
 """ Local library """
 from getdoi.getArticleURL.gettableArticleURL import GettableArticleURL
 from getdoi.getArticleURL.translateGoogleScholarQuery import TranslateGoogleScholarQuery
-from getdoi.articleinfo.articleInfo import ArticleInfo
 from getdoi.scraping.beautifulSoupModel import BeautifulSoupModelImpl
 
 # === CONSTANTS ========================================================================================================

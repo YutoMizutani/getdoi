@@ -38,8 +38,8 @@ https://scholar.google.com/scholar?hl=en&as_sdt=0%2C5&q=author%3Afleshler+hoffma
 """ Standard library """
 from enum import Enum
 """ Third party library """
+from articleinfo.articleInfo import ArticleInfo
 """ Local library """
-from getdoi.articleinfo.articleInfo import ArticleInfo
 from getdoi.getArticleURL.gettableArticleURL import GettableArticleURL
 from getdoi.getArticleURL.googleScholar import GoogleScholar
 

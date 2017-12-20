@@ -34,12 +34,11 @@ import sys
 import os
 import time
 """ Third party library """
+from articleinfo.getArticleInfoFromCitation.getArticleInfoFromCitationController import GetArticleInfoFromCitationControllerImpl
 """ Local library """
 from getdoi.reader.readEnteredText import ReadEnteredTextImpl
 from getdoi.reader.ioTextFile import IOTextFile
 from getdoi.translator.translateEscapeSequence import TranslateEscapeSequence
-from getdoi.articleinfo.articleInfo import ArticleInfo
-from getdoi.articleinfo.getArticleInfoFromCitation.getArticleInfoFromCitationController import GetArticleInfoFromCitationControllerImpl
 from getdoi.getArticleURL.getArticleURLController import GetArticleURLControllerImpl
 from getdoi.getDOIFromURL.getDOIFromURLController import GetDOIFromURLControllerImpl
 
