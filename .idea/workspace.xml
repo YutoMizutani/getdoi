@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6e8dda17-1cfc-4514-b6ec-7b81d2add472" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/getdoi/getDOIFromURL/brillonline.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/getdoi/tests/test_brillonline.py" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/getdoi/getDOIFromURL/sagepub.py" afterPath="$PROJECT_DIR$/getdoi/getDOIFromURL/sagepub.py" />
-      <change beforePath="$PROJECT_DIR$/getdoi/tests/test_sagepub.py" afterPath="$PROJECT_DIR$/getdoi/tests/test_sagepub.py" />
+      <change beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change beforePath="$PROJECT_DIR$/setup.py" afterPath="$PROJECT_DIR$/setup.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -21,7 +18,7 @@
         <entry file="file://$PROJECT_DIR$/getdoi/__init__.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="1180">
-              <caret line="115" column="21" lean-forward="true" selection-start-line="115" selection-start-column="21" selection-end-line="115" selection-end-column="21" />
+              <caret line="115" column="21" lean-forward="false" selection-start-line="115" selection-start-column="21" selection-end-line="115" selection-end-column="21" />
               <folding>
                 <element signature="e#773#783#0" expanded="true" />
               </folding>
@@ -45,7 +42,7 @@
         <entry file="file://$PROJECT_DIR$/getdoi/getDOIFromURL/getDOIFromURLControllerStandAlone.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="150">
-              <caret line="111" column="28" lean-forward="true" selection-start-line="111" selection-start-column="28" selection-end-line="115" selection-end-column="36" />
+              <caret line="111" column="28" lean-forward="false" selection-start-line="111" selection-start-column="28" selection-end-line="115" selection-end-column="36" />
               <folding />
             </state>
           </provider>
@@ -55,7 +52,7 @@
         <entry file="file://$PROJECT_DIR$/getdoi/getDOIFromURL/science.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="409">
-              <caret line="73" column="41" lean-forward="true" selection-start-line="73" selection-start-column="41" selection-end-line="73" selection-end-column="41" />
+              <caret line="73" column="41" lean-forward="false" selection-start-line="73" selection-start-column="41" selection-end-line="73" selection-end-column="41" />
               <folding>
                 <element signature="e#822#858#0" expanded="true" />
               </folding>
@@ -67,7 +64,7 @@
         <entry file="file://$PROJECT_DIR$/getdoi/tests/test_science.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="349">
-              <caret line="75" column="44" lean-forward="true" selection-start-line="75" selection-start-column="44" selection-end-line="75" selection-end-column="44" />
+              <caret line="75" column="44" lean-forward="false" selection-start-line="75" selection-start-column="44" selection-end-line="75" selection-end-column="44" />
               <folding />
             </state>
           </provider>
@@ -77,7 +74,7 @@
         <entry file="file://$PROJECT_DIR$/getdoi/getDOIFromURL/getDOIFromURLController.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-518">
-              <caret line="74" column="17" lean-forward="true" selection-start-line="74" selection-start-column="17" selection-end-line="74" selection-end-column="17" />
+              <caret line="74" column="17" lean-forward="false" selection-start-line="74" selection-start-column="17" selection-end-line="74" selection-end-column="17" />
               <folding>
                 <marker date="1513829688000" expanded="true" signature="3749:4199" ph="..." />
                 <marker date="1513829688000" expanded="true" signature="3749:4438" ph="..." />
@@ -101,7 +98,7 @@
       <file leaf-file-name="getdoi" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/scripts/getdoi">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="86">
+            <state relative-caret-position="116">
               <caret line="37" column="23" lean-forward="false" selection-start-line="37" selection-start-column="23" selection-end-line="37" selection-end-column="23" />
               <folding />
             </state>
@@ -112,17 +109,30 @@
         <entry file="file://$PROJECT_DIR$/getdoi/tests/test_nature.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="79">
-              <caret line="61" column="36" lean-forward="true" selection-start-line="61" selection-start-column="36" selection-end-line="61" selection-end-column="36" />
+              <caret line="61" column="36" lean-forward="false" selection-start-line="61" selection-start-column="36" selection-end-line="61" selection-end-column="36" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="setup.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider editor-type-id="Gfm">
+            <state />
+          </provider>
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="15">
+              <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="50" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="setup.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/setup.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="18" lean-forward="false" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
+            <state relative-caret-position="240">
+              <caret line="16" column="15" lean-forward="false" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="15" />
               <folding />
             </state>
           </provider>
@@ -152,7 +162,7 @@
         <entry file="file://$PROJECT_DIR$/getdoi/tests/test_psycnet.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="353">
-              <caret line="72" column="0" lean-forward="true" selection-start-line="72" selection-start-column="0" selection-end-line="72" selection-end-column="0" />
+              <caret line="72" column="0" lean-forward="false" selection-start-line="72" selection-start-column="0" selection-end-line="72" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -172,7 +182,7 @@
         <entry file="file://$PROJECT_DIR$/getdoi/tests/test_sagepub.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="275">
-              <caret line="38" column="0" lean-forward="true" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
+              <caret line="38" column="0" lean-forward="false" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -190,6 +200,16 @@
       </file>
       <file leaf-file-name="test_readTextFile.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/getdoi/tests/test_readTextFile.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MANIFEST.in" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/MANIFEST.in">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -222,7 +242,7 @@
         <entry file="file://$PROJECT_DIR$/getdoi/getDOIFromURL/sciencedirect.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="279">
-              <caret line="58" column="22" lean-forward="true" selection-start-line="58" selection-start-column="22" selection-end-line="58" selection-end-column="22" />
+              <caret line="58" column="22" lean-forward="false" selection-start-line="58" selection-start-column="22" selection-end-line="58" selection-end-column="22" />
               <folding>
                 <element signature="e#828#864#0" expanded="true" />
               </folding>
@@ -230,7 +250,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="brillonline.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="brillonline.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/getdoi/getDOIFromURL/brillonline.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="281">
@@ -250,21 +270,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="tandfonline.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/getdoi/getDOIFromURL/tandfonline.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="850">
-              <caret line="85" column="80" lean-forward="false" selection-start-line="85" selection-start-column="16" selection-end-line="85" selection-end-column="80" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="test_tandfonline.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/getdoi/tests/test_tandfonline.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="398">
-              <caret line="65" column="20" lean-forward="true" selection-start-line="65" selection-start-column="20" selection-end-line="65" selection-end-column="20" />
+              <caret line="65" column="20" lean-forward="false" selection-start-line="65" selection-start-column="20" selection-end-line="65" selection-end-column="20" />
               <folding />
             </state>
           </provider>
@@ -274,7 +284,7 @@
         <entry file="file://$PROJECT_DIR$/getdoi/tests/test_liebertpub.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="467">
-              <caret line="68" column="14" lean-forward="true" selection-start-line="68" selection-start-column="14" selection-end-line="68" selection-end-column="14" />
+              <caret line="68" column="14" lean-forward="false" selection-start-line="68" selection-start-column="14" selection-end-line="68" selection-end-column="14" />
               <folding />
             </state>
           </provider>
@@ -284,7 +294,7 @@
         <entry file="file://$PROJECT_DIR$/getdoi/tests/test_apa.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="480">
-              <caret line="136" column="38" lean-forward="true" selection-start-line="136" selection-start-column="38" selection-end-line="136" selection-end-column="38" />
+              <caret line="136" column="38" lean-forward="false" selection-start-line="136" selection-start-column="38" selection-end-line="136" selection-end-column="38" />
               <folding />
             </state>
           </provider>
@@ -304,20 +314,10 @@
         <entry file="file://$PROJECT_DIR$/getdoi/scraping/beautifulSoupModel.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="399">
-              <caret line="255" column="18" lean-forward="true" selection-start-line="255" selection-start-column="18" selection-end-line="257" selection-end-column="23" />
+              <caret line="255" column="18" lean-forward="false" selection-start-line="255" selection-start-column="18" selection-end-line="257" selection-end-column="23" />
               <folding>
                 <element signature="e#808#829#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="test_beautifulSoupModel.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/getdoi/tests/test_beautifulSoupModel.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1030">
-              <caret line="75" column="44" lean-forward="true" selection-start-line="75" selection-start-column="44" selection-end-line="75" selection-end-column="44" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -326,7 +326,7 @@
         <entry file="file://$PROJECT_DIR$/getdoi/tests/test_sciencedirect.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="323">
-              <caret line="60" column="23" lean-forward="true" selection-start-line="60" selection-start-column="23" selection-end-line="60" selection-end-column="23" />
+              <caret line="60" column="23" lean-forward="false" selection-start-line="60" selection-start-column="23" selection-end-line="60" selection-end-column="23" />
               <folding />
             </state>
           </provider>
@@ -336,7 +336,7 @@
         <entry file="file://$PROJECT_DIR$/getdoi/getDOIFromURL/springer.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="974">
-              <caret line="85" column="68" lean-forward="true" selection-start-line="85" selection-start-column="16" selection-end-line="85" selection-end-column="68" />
+              <caret line="85" column="68" lean-forward="false" selection-start-line="85" selection-start-column="16" selection-end-line="85" selection-end-column="68" />
               <folding />
             </state>
           </provider>
@@ -376,7 +376,7 @@
         <entry file="file://$PROJECT_DIR$/getdoi/getDOIFromURL/psycnet.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="763">
-              <caret line="77" column="26" lean-forward="true" selection-start-line="77" selection-start-column="26" selection-end-line="77" selection-end-column="26" />
+              <caret line="77" column="26" lean-forward="false" selection-start-line="77" selection-start-column="26" selection-end-line="77" selection-end-column="26" />
               <folding>
                 <element signature="e#822#858#0" expanded="true" />
               </folding>
@@ -388,7 +388,7 @@
         <entry file="file://$PROJECT_DIR$/getdoi/getDOIFromURL/pmc.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="465">
-              <caret line="61" column="68" lean-forward="true" selection-start-line="61" selection-start-column="15" selection-end-line="61" selection-end-column="68" />
+              <caret line="61" column="68" lean-forward="false" selection-start-line="61" selection-start-column="15" selection-end-line="61" selection-end-column="68" />
               <folding>
                 <element signature="e#818#854#0" expanded="true" />
               </folding>
@@ -579,8 +579,8 @@
       <find>no</find>
       <find>Found</find>
       <find>DOI_STR</find>
-      <find>__translate_prev_format</find>
       <find>writte</find>
+      <find>__translate_prev_format</find>
     </findStrings>
     <replaceStrings>
       <replace>PMC</replace>
@@ -619,7 +619,6 @@
         <option value="$PROJECT_DIR$/getdoi/getArticleURL/getArticleURLControllerStandAlone.py" />
         <option value="$PROJECT_DIR$/getdoi/getDOIFromURL/getDOIFromURLControllerStandAlone.py" />
         <option value="$PROJECT_DIR$/getdoi/notice.py" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/getdoi/reader/readTextFile.py" />
         <option value="$PROJECT_DIR$/getdoi/reader/readEnteredText.py" />
         <option value="$PROJECT_DIR$/scripts/getdoi" />
@@ -646,7 +645,6 @@
         <option value="$PROJECT_DIR$/getdoi/scraping/beautifulSoupModel.py" />
         <option value="$PROJECT_DIR$/getdoi/getDOIFromURL/science.py" />
         <option value="$PROJECT_DIR$/getdoi/getDOIFromURL/nature.py" />
-        <option value="$PROJECT_DIR$/setup.py" />
         <option value="$PROJECT_DIR$/getdoi/getArticleURL/gettableArticleURL.py" />
         <option value="$PROJECT_DIR$/getdoi/getArticleURL/getArticleURLController.py" />
         <option value="$PROJECT_DIR$/getdoi/__init__.py" />
@@ -656,6 +654,8 @@
         <option value="$PROJECT_DIR$/getdoi/getDOIFromURL/brillonline.py" />
         <option value="$PROJECT_DIR$/getdoi/getDOIFromURL/sagepub.py" />
         <option value="$PROJECT_DIR$/getdoi/tests/test_brillonline.py" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/setup.py" />
       </list>
     </option>
   </component>
@@ -1079,41 +1079,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/getdoi/getDOIFromURL/wiley.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="51" column="23" lean-forward="false" selection-start-line="51" selection-start-column="23" selection-end-line="51" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider editor-type-id="Gfm">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="12" lean-forward="false" selection-start-line="15" selection-start-column="12" selection-end-line="15" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MANIFEST.in">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/getdoi/tests/test_translatorScholarQuery.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-622">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/getdoi/tests/test_wiley.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="493">
@@ -1125,7 +1090,7 @@
     <entry file="file://$PROJECT_DIR$/getdoi/tests/test_tandfonline.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="398">
-          <caret line="65" column="20" lean-forward="true" selection-start-line="65" selection-start-column="20" selection-end-line="65" selection-end-column="20" />
+          <caret line="65" column="20" lean-forward="false" selection-start-line="65" selection-start-column="20" selection-end-line="65" selection-end-column="20" />
           <folding />
         </state>
       </provider>
@@ -1141,7 +1106,7 @@
     <entry file="file://$PROJECT_DIR$/getdoi/getDOIFromURL/springer.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="974">
-          <caret line="85" column="68" lean-forward="true" selection-start-line="85" selection-start-column="16" selection-end-line="85" selection-end-column="68" />
+          <caret line="85" column="68" lean-forward="false" selection-start-line="85" selection-start-column="16" selection-end-line="85" selection-end-column="68" />
           <folding />
         </state>
       </provider>
@@ -1178,7 +1143,7 @@
     <entry file="file://$PROJECT_DIR$/getdoi/tests/test_psycnet.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="353">
-          <caret line="72" column="0" lean-forward="true" selection-start-line="72" selection-start-column="0" selection-end-line="72" selection-end-column="0" />
+          <caret line="72" column="0" lean-forward="false" selection-start-line="72" selection-start-column="0" selection-end-line="72" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1194,7 +1159,7 @@
     <entry file="file://$PROJECT_DIR$/getdoi/getDOIFromURL/pmc.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="465">
-          <caret line="61" column="68" lean-forward="true" selection-start-line="61" selection-start-column="15" selection-end-line="61" selection-end-column="68" />
+          <caret line="61" column="68" lean-forward="false" selection-start-line="61" selection-start-column="15" selection-end-line="61" selection-end-column="68" />
           <folding>
             <element signature="e#818#854#0" expanded="true" />
           </folding>
@@ -1228,7 +1193,7 @@
     <entry file="file://$PROJECT_DIR$/getdoi/tests/test_sciencedirect.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
-          <caret line="60" column="23" lean-forward="true" selection-start-line="60" selection-start-column="23" selection-end-line="60" selection-end-column="23" />
+          <caret line="60" column="23" lean-forward="false" selection-start-line="60" selection-start-column="23" selection-end-line="60" selection-end-column="23" />
           <folding />
         </state>
       </provider>
@@ -1236,7 +1201,7 @@
     <entry file="file://$PROJECT_DIR$/getdoi/tests/test_liebertpub.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="467">
-          <caret line="68" column="14" lean-forward="true" selection-start-line="68" selection-start-column="14" selection-end-line="68" selection-end-column="14" />
+          <caret line="68" column="14" lean-forward="false" selection-start-line="68" selection-start-column="14" selection-end-line="68" selection-end-column="14" />
           <folding />
         </state>
       </provider>
@@ -1254,7 +1219,7 @@
     <entry file="file://$PROJECT_DIR$/getdoi/tests/test_science.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="349">
-          <caret line="75" column="44" lean-forward="true" selection-start-line="75" selection-start-column="44" selection-end-line="75" selection-end-column="44" />
+          <caret line="75" column="44" lean-forward="false" selection-start-line="75" selection-start-column="44" selection-end-line="75" selection-end-column="44" />
           <folding />
         </state>
       </provider>
@@ -1262,7 +1227,7 @@
     <entry file="file://$PROJECT_DIR$/getdoi/scraping/beautifulSoupModel.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="399">
-          <caret line="255" column="18" lean-forward="true" selection-start-line="255" selection-start-column="18" selection-end-line="257" selection-end-column="23" />
+          <caret line="255" column="18" lean-forward="false" selection-start-line="255" selection-start-column="18" selection-end-line="257" selection-end-column="23" />
           <folding>
             <element signature="e#808#829#0" expanded="true" />
           </folding>
@@ -1282,15 +1247,7 @@
     <entry file="file://$PROJECT_DIR$/getdoi/tests/test_nature.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="79">
-          <caret line="61" column="36" lean-forward="true" selection-start-line="61" selection-start-column="36" selection-end-line="61" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/setup.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="18" lean-forward="false" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
+          <caret line="61" column="36" lean-forward="false" selection-start-line="61" selection-start-column="36" selection-end-line="61" selection-end-column="36" />
           <folding />
         </state>
       </provider>
@@ -1298,26 +1255,10 @@
     <entry file="file://$PROJECT_DIR$/getdoi/getDOIFromURL/science.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="409">
-          <caret line="73" column="41" lean-forward="true" selection-start-line="73" selection-start-column="41" selection-end-line="73" selection-end-column="41" />
+          <caret line="73" column="41" lean-forward="false" selection-start-line="73" selection-start-column="41" selection-end-line="73" selection-end-column="41" />
           <folding>
             <element signature="e#822#858#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/getdoi">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="86">
-          <caret line="37" column="23" lean-forward="false" selection-start-line="37" selection-start-column="23" selection-end-line="37" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1376,7 +1317,7 @@
     <entry file="file://$PROJECT_DIR$/getdoi/getDOIFromURL/getDOIFromURLControllerStandAlone.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
-          <caret line="111" column="28" lean-forward="true" selection-start-line="111" selection-start-column="28" selection-end-line="115" selection-end-column="36" />
+          <caret line="111" column="28" lean-forward="false" selection-start-line="111" selection-start-column="28" selection-end-line="115" selection-end-column="36" />
           <folding />
         </state>
       </provider>
@@ -1416,7 +1357,7 @@
     <entry file="file://$PROJECT_DIR$/getdoi/getDOIFromURL/getDOIFromURLController.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-518">
-          <caret line="74" column="17" lean-forward="true" selection-start-line="74" selection-start-column="17" selection-end-line="74" selection-end-column="17" />
+          <caret line="74" column="17" lean-forward="false" selection-start-line="74" selection-start-column="17" selection-end-line="74" selection-end-column="17" />
           <folding>
             <marker date="1513829688000" expanded="true" signature="3749:4199" ph="..." />
             <marker date="1513829688000" expanded="true" signature="3749:4438" ph="..." />
@@ -1427,7 +1368,7 @@
     <entry file="file://$PROJECT_DIR$/getdoi/getDOIFromURL/sciencedirect.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="279">
-          <caret line="58" column="22" lean-forward="true" selection-start-line="58" selection-start-column="22" selection-end-line="58" selection-end-column="22" />
+          <caret line="58" column="22" lean-forward="false" selection-start-line="58" selection-start-column="22" selection-end-line="58" selection-end-column="22" />
           <folding>
             <element signature="e#828#864#0" expanded="true" />
           </folding>
@@ -1445,7 +1386,7 @@
     <entry file="file://$PROJECT_DIR$/getdoi/tests/test_apa.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="480">
-          <caret line="136" column="38" lean-forward="true" selection-start-line="136" selection-start-column="38" selection-end-line="136" selection-end-column="38" />
+          <caret line="136" column="38" lean-forward="false" selection-start-line="136" selection-start-column="38" selection-end-line="136" selection-end-column="38" />
           <folding />
         </state>
       </provider>
@@ -1477,7 +1418,7 @@
     <entry file="file://$PROJECT_DIR$/getdoi/tests/test_sagepub.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="275">
-          <caret line="38" column="0" lean-forward="true" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
+          <caret line="38" column="0" lean-forward="false" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1485,7 +1426,7 @@
     <entry file="file://$PROJECT_DIR$/getdoi/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1180">
-          <caret line="115" column="21" lean-forward="true" selection-start-line="115" selection-start-column="21" selection-end-line="115" selection-end-column="21" />
+          <caret line="115" column="21" lean-forward="false" selection-start-line="115" selection-start-column="21" selection-end-line="115" selection-end-column="21" />
           <folding>
             <element signature="e#773#783#0" expanded="true" />
           </folding>
@@ -1504,6 +1445,65 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="281">
           <caret line="45" column="33" lean-forward="false" selection-start-line="45" selection-start-column="6" selection-end-line="45" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/getdoi">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="116">
+          <caret line="37" column="23" lean-forward="false" selection-start-line="37" selection-start-column="23" selection-end-line="37" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/getdoi/getDOIFromURL/tandfonline.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="850">
+          <caret line="85" column="80" lean-forward="false" selection-start-line="85" selection-start-column="16" selection-end-line="85" selection-end-column="80" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/getdoi/tests/test_beautifulSoupModel.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1030">
+          <caret line="75" column="44" lean-forward="false" selection-start-line="75" selection-start-column="44" selection-end-line="75" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MANIFEST.in">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider editor-type-id="Gfm">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/setup.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="15" lean-forward="false" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="15" />
           <folding />
         </state>
       </provider>
