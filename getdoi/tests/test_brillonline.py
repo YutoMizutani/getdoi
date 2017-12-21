@@ -4,7 +4,7 @@
 # === About ============================================================================================================
 
 """
- test_sagepub.py
+ test_brillonline.py
 
 Copyright © 2017 Yuto Mizutani.
 This software is released under the MIT License.
@@ -33,7 +33,7 @@ Python: 3.6.1
 import unittest
 """ Third party library """
 """ Local library """
-from getdoi.getDOIFromURL.sagepub import SAGE
+from getdoi.getDOIFromURL.brillonline import BrillOnlineBooksAndJournals
 
 # === CONSTANTS ========================================================================================================
 
@@ -44,10 +44,10 @@ from getdoi.getDOIFromURL.sagepub import SAGE
 # ======================================================================================================================
 
 
-class TestSAGEJournals(unittest.TestCase):
+class TestBrillOnlineBooksAndJournals(unittest.TestCase):
     @classmethod
     def setUpClass(cls):
-        print('class TestSAGEJournals(unittest.TestCase):')
+        print('class TestBrillOnlineBooksAndJournals(unittest.TestCase):')
         print('def setUpClass(cls):')
 
     @classmethod
@@ -56,15 +56,15 @@ class TestSAGEJournals(unittest.TestCase):
 
     def setUp(self):
         print('def setUp(self):')
-        self.getter = SAGE()
+        self.getter = BrillOnlineBooksAndJournals()
 
     def tearDown(self):
         print('def tearDown(self):')
 
     def test_get_url(self):
         print('def test_get_url(self):')
-        url = 'http://journals.sagepub.com/doi/10.1177/0013916583153004'
-        doi = 'https://doi.org/10.1177/0013916583153004'
+        url = 'http://booksandjournals.brillonline.com/content/journals/10.1163/156856897x00366'
+        doi = 'https://doi.org/10.1163/156856897X00366'
         result = self.getter.get_url(url=url)
         print('URL: {0}'.format(url))
         print('DOI: {0}'.format(result))
@@ -72,8 +72,8 @@ class TestSAGEJournals(unittest.TestCase):
 
     def test_get_prev_format(self):
         print('def test_get_prev_format(self):')
-        url = 'http://journals.sagepub.com/doi/10.1177/0013916583153004'
-        doi = 'doi: 10.1177/0013916583153004'
+        url = 'http://booksandjournals.brillonline.com/content/journals/10.1163/156856897x00366'
+        doi = 'doi: 10.1163/156856897X00366'
         result = self.getter.get_prev_format(url=url)
         print('URL: {0}'.format(url))
         print('DOI: {0}'.format(result))

@@ -4,7 +4,7 @@
 # === About ============================================================================================================
 
 """
- springer.py
+ brillonline.py
 
 Copyright © 2017 Yuto Mizutani.
 This software is released under the MIT License.
@@ -43,12 +43,13 @@ from .gettableDOI import GettableDOI
 
 # ======================================================================================================================
 
-class SAGE(GettableDOI):
-    # http://journals.sagepub.com/doi/10.1177/0013916583153004
+class BrillOnlineBooksAndJournals(GettableDOI):
+    # http://booksandjournals.brillonline.com/content/journals/10.1163/156856897x00366
+    # 10.1163/156856897X00366
     # -- constants --
-    JOURNAL_URL = 'journals.sagepub.com'
-    JOURNAL_STR = 'SAGE Journal'
-    DOI_KEY = "journals.sagepub.com/doi/"
+    JOURNAL_URL = 'booksandjournals.brillonline.com'
+    JOURNAL_STR = 'Brill Online Books and Journals'
+    DOI_KEY = "booksandjournals.brillonline.com/content/journals/"
     DOI_URL = 'https://doi.org/'
     DOI_STR = 'doi: '
 
@@ -74,17 +75,20 @@ class SAGE(GettableDOI):
 
     # -- translator --
     def __translate_url_format(self, *, raw_doi: str)->str:
-        """10.1177/0013916583153004 に https://doi.org/ を加える。"""
-        return self.DOI_URL+raw_doi
+        """10.1163/156856897x00366 の x を大文字にし， https://doi.org/ を加える。"""
+        return self.DOI_URL+self.__translate_uppercase(raw_doi=raw_doi)
 
     def __translate_prev_format(self, *, raw_doi: str)->str:
         """10.1177/0013916583153004 に doi: を加える。"""
-        return self.DOI_STR + raw_doi
+        return self.DOI_STR + self.__translate_uppercase(raw_doi=raw_doi)
+
+    def __translate_uppercase(self, *, raw_doi: str)->str:
+        return raw_doi.upper()
 
     # -- model --
     def __get_raw_doi(self, *, url: str)->str or None:
         """元々doiがURLに含まれている。"""
-        # e.g. "http://journals.sagepub.com/doi/10.1177/0013916583153004"
+        # http://booksandjournals.brillonline.com/content/journals/10.1163/156856897x00366
         if self.__decision_include_keyword(keyword=self.DOI_KEY, text=url):
             num = url.find(self.DOI_KEY)
             count = 0
@@ -93,7 +97,6 @@ class SAGE(GettableDOI):
                 if count >= num + len(self.DOI_KEY):
                     doi += char
                 count += 1
-            # 10.1177/0013916583153004
             # print(doi)
             return doi
         else:
