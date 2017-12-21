@@ -23,7 +23,7 @@ Google Scholarでの検索には上限があり，何度も検索した場合エ
 
 # How to install
 
-$ pip install git+https://github.com/YutoMizutani/getdoi
+$ pip install getdoi
 
 
 # How to work
