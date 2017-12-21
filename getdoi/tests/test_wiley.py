@@ -64,7 +64,7 @@ class TestWiley(unittest.TestCase):
     def test_get_url(self):
         print('def test_get_url(self):')
         url = 'http://onlinelibrary.wiley.com/doi/10.1901/jeab.1963.6-s477/full'
-        doi_url = 'https://dx.doi.org/10.1901/jeab.1963.6-s477'
+        doi_url = 'https://doi.org/10.1901/jeab.1963.6-s477'
         result = self.getter.get_url(url=url)
         print('URL: {0}'.format(url))
         print('DOI: {0}'.format(result))

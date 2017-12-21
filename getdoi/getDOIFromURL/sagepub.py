@@ -43,12 +43,13 @@ from .gettableDOI import GettableDOI
 
 # ======================================================================================================================
 
-class Springer(GettableDOI):
+class SAGE(GettableDOI):
     # -- constants --
-    JOURNAL_URL = 'link.springer.com'
-    JOURNAL_STR = 'Springer'
-    DOI_KEY = "link.springer.com/article/"
-    DOI_URL = 'https://dx.doi.org/'
+    # -- constants --
+    JOURNAL_URL = 'journals.sagepub.com'
+    JOURNAL_STR = 'SAGE Journal'
+    DOI_KEY = "journals.sagepub.com/doi/"
+    DOI_URL = 'https://doi.org/'
     DOI_STR = 'doi: '
 
 
@@ -73,17 +74,17 @@ class Springer(GettableDOI):
 
     # -- translator --
     def __translate_url_format(self, *, raw_doi: str)->str:
-        """10.1007/BF03393232 に https://dx.doi.org/ を加える。"""
+        """10.1177/0013916583153004 に https://dx.doi.org/ を加える。"""
         return self.DOI_URL+raw_doi
 
     def __translate_prev_format(self, *, doi_url: str)->str:
-        """10.1007/BF03393232 に doi: を加える。"""
+        """10.1177/0013916583153004 に doi: を加える。"""
         return self.DOI_STR + doi_url.replace(self.DOI_URL, '')
 
     # -- model --
     def __get_raw_doi(self, *, url: str)->str or None:
         """doiをwileyから読み込む。が，wileyは元々doiがURLに含まれている。"""
-        # e.g. "https://link.springer.com/article/10.1007/BF03393232"
+        # e.g. "http://journals.sagepub.com/doi/10.1177/0013916583153004"
         if self.__decision_include_keyword(keyword=self.DOI_KEY, text=url):
             num = url.find(self.DOI_KEY)
             count = 0
@@ -92,12 +93,12 @@ class Springer(GettableDOI):
                 if count >= num + len(self.DOI_KEY):
                     doi += char
                 count += 1
-            # 10.1007/BF03393232
+            # 10.1177/0013916583153004
             # print(doi)
             return doi
         else:
             print("含まれない！？ scrapingを用いた検索処理は未実装です。")
-            print('NoneDOI From Springer ({link})'.format(link=url))
+            print('NoneDOI From SAGE ({link})'.format(link=url))
             return None
 
     def __decision_include_keyword(self, *, keyword: str, text: str):

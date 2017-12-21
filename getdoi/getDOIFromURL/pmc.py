@@ -46,7 +46,10 @@ from getdoi.scraping.beautifulSoupModel import BeautifulSoupModelImpl
 
 class PMC(GettableDOI):
     # -- constants --
+    JOURNAL_URL = 'www.ncbi.nlm.nih.gov/pmc'
+    JOURNAL_STR = 'PMC'
     DOI_URL = 'https://dx.doi.org/'
+    DOI_STR = 'doi: '
     DOI_URL_NETWORK_PATH = '//dx.doi.org/'
     NETWORK_PATH = 'https:'
 
@@ -88,8 +91,7 @@ class PMC(GettableDOI):
 
     def __translate_prev_format(self, *, doi_url: str)->str:
         """https://dx.doi.org/10.1901%2Fjeab.1976.26-441 からdoiURLを引く。"""
-        doi_key = 'doi: '
-        return doi_key + doi_url.replace(self.DOI_URL, '')
+        return self.DOI_STR + doi_url.replace(self.DOI_URL, '')
 
     # -- model --
     def __find_https_format(self, *, anchor_links: [str])->str or None:

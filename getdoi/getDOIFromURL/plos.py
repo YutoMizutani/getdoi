@@ -46,8 +46,11 @@ from getdoi.scraping.beautifulSoupModel import BeautifulSoupModelImpl
 
 class PLOS(GettableDOI):
     # -- constants --
+    JOURNAL_URL = 'journals.plos.org'
+    JOURNAL_STR = 'PLOS'
     DOI_KEY = "http://journals.plos.org/plosgenetics/article?id="
     DOI_URL = 'https://doi.org/'
+    DOI_STR = 'doi: '
 
     # -- controller --
     def get(self, *, url: str)->str or None:
@@ -93,8 +96,7 @@ class PLOS(GettableDOI):
 
     def __translate_prev_format(self, *, doi_url: str)->str:
         """https://doi.org/10.1371/journal.pgen.0010066 にhttps://doi.org/を除き doi: を加える。"""
-        doi_key = 'doi: '
-        return doi_key + doi_url.replace(self.DOI_URL, '')
+        return self.DOI_STR + doi_url.replace(self.DOI_URL, '')
 
     # -- model --
     def __get_raw_doi(self, *, url: str)->str or None:

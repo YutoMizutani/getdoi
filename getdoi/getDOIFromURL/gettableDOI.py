@@ -43,6 +43,10 @@ Python: 3.6.1
 
 
 class GettableDOI(object):
+    # -- constants --
+    JOURNAL_URL = None
+    JOURNAL_STR = None
+
     def get(self, *, url: str)->str or None:
         print('Error! Can not call protocol funcs!')
         raise RuntimeError

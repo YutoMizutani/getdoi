@@ -13,7 +13,7 @@ with open('LICENSE') as f:
 
 setup(
     name='getdoi',
-    version='0.1.0',
+    version='0.1.1',
     description='Get journal\'s DOI from article citation text.',
     long_description=readme,
     classifiers=[

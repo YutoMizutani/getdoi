@@ -47,7 +47,7 @@ from getdoi.getDOIFromURL.sciencedirect import ScienceDirect
 class TestScienceDirect(unittest.TestCase):
     @classmethod
     def setUpClass(cls):
-        print('class GetDOIFromURLPresenterImpl(unittest.TestCase):')
+        print('class TestScienceDirect(unittest.TestCase):')
         print('def setUpClass(cls):')
 
     @classmethod

@@ -44,6 +44,10 @@ from articleinfo.articleInfo import ArticleInfo
 
 
 class GettableArticleURL(object):
+    # -- constants --
+    SCHOLAR_URL = None
+
+    # -- funcs --
     def get(self, *, article_info: ArticleInfo)->str or None:
         print('Error! Can not call protocol funcs!')
         raise RuntimeError

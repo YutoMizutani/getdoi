@@ -45,9 +45,12 @@ from .gettableDOI import GettableDOI
 
 class Wiley(GettableDOI):
     # -- constants --
+    JOURNAL_URL = 'onlinelibrary.wiley.com'
+    JOURNAL_STR = 'Wiley'
     DOI_KEY = "doi/"
     DOI_KEY_FULL = "/full"
-    DOI_URL = 'https://dx.doi.org/'
+    DOI_URL = 'https://doi.org/'
+    DOI_STR = 'doi: '
 
 
     # -- controller --
@@ -76,8 +79,7 @@ class Wiley(GettableDOI):
 
     def __translate_prev_format(self, *, doi_url: str)->str:
         """10.1901/jeab.1963.6-s477 に doi: を加える。"""
-        doi_key = 'doi: '
-        return doi_key + doi_url.replace(self.DOI_URL, '')
+        return self.DOI_STR + doi_url.replace(self.DOI_URL, '')
 
     # -- model --
     def __get_raw_doi(self, *, url: str)->str or None:

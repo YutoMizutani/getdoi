@@ -2,19 +2,32 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6e8dda17-1cfc-4514-b6ec-7b81d2add472" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/getdoi/getDOIFromURL/liebertpub.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/getdoi/getDOIFromURL/nature.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/getdoi/getDOIFromURL/sagepub.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/getdoi/getDOIFromURL/science.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/getdoi/getDOIFromURL/tandfonline.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/getdoi/tests/test_liebertpub.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/getdoi/tests/test_nature.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/getdoi/tests/test_sagepub.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/getdoi/tests/test_science.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/getdoi/tests/test_tandfonline.py" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/getdoi/__init__.py" afterPath="$PROJECT_DIR$/getdoi/__init__.py" />
-      <change beforePath="$PROJECT_DIR$/getdoi/articleinfo/__init__.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/getdoi/articleinfo/articleInfo.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/getdoi/articleinfo/getArticleInfoFromCitation/__init__.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/getdoi/articleinfo/getArticleInfoFromCitation/apa.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/getdoi/articleinfo/getArticleInfoFromCitation/getArticleInfoFromCitationController.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/getdoi/articleinfo/getArticleInfoFromCitation/getArticleInfoFromCitationControllerStandAlone.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/getdoi/articleinfo/getArticleInfoFromCitation/gettableArticleInfo.py" afterPath="" />
       <change beforePath="$PROJECT_DIR$/getdoi/getArticleURL/getArticleURLController.py" afterPath="$PROJECT_DIR$/getdoi/getArticleURL/getArticleURLController.py" />
       <change beforePath="$PROJECT_DIR$/getdoi/getArticleURL/gettableArticleURL.py" afterPath="$PROJECT_DIR$/getdoi/getArticleURL/gettableArticleURL.py" />
-      <change beforePath="$PROJECT_DIR$/getdoi/getArticleURL/googleScholar.py" afterPath="$PROJECT_DIR$/getdoi/getArticleURL/googleScholar.py" />
+      <change beforePath="$PROJECT_DIR$/getdoi/getDOIFromURL/getDOIFromURLController.py" afterPath="$PROJECT_DIR$/getdoi/getDOIFromURL/getDOIFromURLController.py" />
+      <change beforePath="$PROJECT_DIR$/getdoi/getDOIFromURL/gettableDOI.py" afterPath="$PROJECT_DIR$/getdoi/getDOIFromURL/gettableDOI.py" />
+      <change beforePath="$PROJECT_DIR$/getdoi/getDOIFromURL/plos.py" afterPath="$PROJECT_DIR$/getdoi/getDOIFromURL/plos.py" />
+      <change beforePath="$PROJECT_DIR$/getdoi/getDOIFromURL/pmc.py" afterPath="$PROJECT_DIR$/getdoi/getDOIFromURL/pmc.py" />
+      <change beforePath="$PROJECT_DIR$/getdoi/getDOIFromURL/psycnet.py" afterPath="$PROJECT_DIR$/getdoi/getDOIFromURL/psycnet.py" />
+      <change beforePath="$PROJECT_DIR$/getdoi/getDOIFromURL/sciencedirect.py" afterPath="$PROJECT_DIR$/getdoi/getDOIFromURL/sciencedirect.py" />
+      <change beforePath="$PROJECT_DIR$/getdoi/getDOIFromURL/springer.py" afterPath="$PROJECT_DIR$/getdoi/getDOIFromURL/springer.py" />
+      <change beforePath="$PROJECT_DIR$/getdoi/getDOIFromURL/wiley.py" afterPath="$PROJECT_DIR$/getdoi/getDOIFromURL/wiley.py" />
+      <change beforePath="$PROJECT_DIR$/getdoi/scraping/beautifulSoupModel.py" afterPath="$PROJECT_DIR$/getdoi/scraping/beautifulSoupModel.py" />
+      <change beforePath="$PROJECT_DIR$/getdoi/tests/test_psycnet.py" afterPath="$PROJECT_DIR$/getdoi/tests/test_psycnet.py" />
+      <change beforePath="$PROJECT_DIR$/getdoi/tests/test_sciencedirect.py" afterPath="$PROJECT_DIR$/getdoi/tests/test_sciencedirect.py" />
+      <change beforePath="$PROJECT_DIR$/getdoi/tests/test_wiley.py" afterPath="$PROJECT_DIR$/getdoi/tests/test_wiley.py" />
       <change beforePath="$PROJECT_DIR$/setup.py" afterPath="$PROJECT_DIR$/setup.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -29,8 +42,8 @@
       <file leaf-file-name="__init__.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/getdoi/__init__.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="43" column="0" lean-forward="true" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
+            <state relative-caret-position="1162">
+              <caret line="115" column="21" lean-forward="true" selection-start-line="115" selection-start-column="21" selection-end-line="115" selection-end-column="21" />
               <folding>
                 <element signature="e#773#783#0" expanded="true" />
               </folding>
@@ -41,8 +54,8 @@
       <file leaf-file-name="getArticleURLControllerStandAlone.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/getdoi/getArticleURL/getArticleURLControllerStandAlone.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1605">
-              <caret line="108" column="54" lean-forward="false" selection-start-line="108" selection-start-column="54" selection-end-line="108" selection-end-column="54" />
+            <state relative-caret-position="178">
+              <caret line="91" column="15" lean-forward="false" selection-start-line="91" selection-start-column="15" selection-end-line="91" selection-end-column="15" />
               <folding>
                 <element signature="e#838#922#0" expanded="true" />
               </folding>
@@ -53,28 +66,75 @@
       <file leaf-file-name="getDOIFromURLControllerStandAlone.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/getdoi/getDOIFromURL/getDOIFromURLControllerStandAlone.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="81" column="21" lean-forward="false" selection-start-line="81" selection-start-column="21" selection-end-line="81" selection-end-column="21" />
+            <state relative-caret-position="150">
+              <caret line="111" column="28" lean-forward="true" selection-start-line="111" selection-start-column="28" selection-end-line="115" selection-end-column="36" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="__init__.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/getdoi/scraping/__init__.py">
+      <file leaf-file-name="science.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/getdoi/getDOIFromURL/science.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="409">
+              <caret line="73" column="41" lean-forward="true" selection-start-line="73" selection-start-column="41" selection-end-line="73" selection-end-column="41" />
+              <folding>
+                <element signature="e#822#858#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="test_science.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/getdoi/tests/test_science.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="349">
+              <caret line="75" column="44" lean-forward="true" selection-start-line="75" selection-start-column="44" selection-end-line="75" selection-end-column="44" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="getDOIFromURLController.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="getDOIFromURLController.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/getdoi/getDOIFromURL/getDOIFromURLController.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1965">
-              <caret line="131" column="26" lean-forward="false" selection-start-line="131" selection-start-column="26" selection-end-line="131" selection-end-column="26" />
+            <state relative-caret-position="455">
+              <caret line="74" column="17" lean-forward="true" selection-start-line="74" selection-start-column="17" selection-end-line="74" selection-end-column="17" />
+              <folding>
+                <marker date="1513829688000" expanded="true" signature="3749:4199" ph="..." />
+                <marker date="1513829688000" expanded="true" signature="3749:4438" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="nature.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/getdoi/getDOIFromURL/nature.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="249">
+              <caret line="73" column="21" lean-forward="false" selection-start-line="73" selection-start-column="21" selection-end-line="73" selection-end-column="21" />
+              <folding>
+                <element signature="e#821#857#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="getdoi" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/scripts/getdoi">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="86">
+              <caret line="37" column="23" lean-forward="false" selection-start-line="37" selection-start-column="23" selection-end-line="37" selection-end-column="23" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="test_nature.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/getdoi/tests/test_nature.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="79">
+              <caret line="61" column="36" lean-forward="true" selection-start-line="61" selection-start-column="36" selection-end-line="61" selection-end-column="36" />
               <folding />
             </state>
           </provider>
@@ -83,18 +143,8 @@
       <file leaf-file-name="setup.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/setup.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="30" column="30" lean-forward="true" selection-start-line="30" selection-start-column="30" selection-end-line="30" selection-end-column="30" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="getdoi" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/scripts/getdoi">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="156">
-              <caret line="37" column="23" lean-forward="false" selection-start-line="37" selection-start-column="23" selection-end-line="37" selection-end-column="23" />
+            <state relative-caret-position="225">
+              <caret line="15" column="18" lean-forward="false" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
               <folding />
             </state>
           </provider>
@@ -110,75 +160,61 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider editor-type-id="Gfm">
-            <state />
-          </provider>
+      <file leaf-file-name="test_pmc.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/getdoi/tests/test_pmc.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="12" lean-forward="false" selection-start-line="15" selection-start-column="12" selection-end-line="15" selection-end-column="12" />
+            <state relative-caret-position="-575">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Screen Shot 2017-12-15 ver_0_1_0.png" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/docs/Screen Shot 2017-12-15 ver_0_1_0.png">
-          <provider selected="true" editor-type-id="images">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LICENSE" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/LICENSE">
+      <file leaf-file-name="test_psycnet.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/getdoi/tests/test_psycnet.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+            <state relative-caret-position="353">
+              <caret line="72" column="0" lean-forward="true" selection-start-line="72" selection-start-column="0" selection-end-line="72" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="gettableDOI.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/getdoi/getDOIFromURL/gettableDOI.py">
+      <file leaf-file-name="liebertpub.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/getdoi/getDOIFromURL/liebertpub.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="870">
-              <caret line="58" column="0" lean-forward="false" selection-start-line="58" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
+            <state relative-caret-position="823">
+              <caret line="81" column="27" lean-forward="false" selection-start-line="81" selection-start-column="27" selection-end-line="81" selection-end-column="27" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="sciencedirect.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/getdoi/getDOIFromURL/sciencedirect.py">
+      <file leaf-file-name="test_translateEscapeSequence.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/getdoi/tests/test_translateEscapeSequence.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1185">
-              <caret line="80" column="0" lean-forward="false" selection-start-line="80" selection-start-column="0" selection-end-line="80" selection-end-column="0" />
-              <folding>
-                <element signature="e#828#864#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="beautifulSoupModel.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/getdoi/scraping/beautifulSoupModel.py">
+      <file leaf-file-name="test_springer.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/getdoi/tests/test_springer.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="648">
-              <caret line="68" column="26" lean-forward="false" selection-start-line="68" selection-start-column="26" selection-end-line="68" selection-end-column="26" />
-              <folding>
-                <element signature="e#808#829#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="413">
+              <caret line="66" column="56" lean-forward="false" selection-start-line="66" selection-start-column="19" selection-end-line="66" selection-end-column="56" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="test_sciencedirect.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/getdoi/tests/test_sciencedirect.py">
+      <file leaf-file-name="test_sagepub.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/getdoi/tests/test_sagepub.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="21" column="13" lean-forward="false" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+            <state relative-caret-position="492">
+              <caret line="66" column="23" lean-forward="true" selection-start-line="66" selection-start-column="23" selection-end-line="66" selection-end-column="23" />
               <folding />
             </state>
           </provider>
@@ -194,8 +230,8 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MANIFEST.in" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/MANIFEST.in">
+      <file leaf-file-name="test_readTextFile.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/getdoi/tests/test_readTextFile.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -204,11 +240,115 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Makefile" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Makefile">
+      <file leaf-file-name="test_readEnteredText.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/getdoi/tests/test_readEnteredText.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="gettableDOI.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/getdoi/getDOIFromURL/gettableDOI.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="473">
+              <caret line="46" column="22" lean-forward="false" selection-start-line="46" selection-start-column="22" selection-end-line="46" selection-end-column="22" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="sciencedirect.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/getdoi/getDOIFromURL/sciencedirect.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="669">
+              <caret line="84" column="0" lean-forward="true" selection-start-line="84" selection-start-column="0" selection-end-line="88" selection-end-column="61" />
+              <folding>
+                <element signature="e#828#864#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="tandfonline.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/getdoi/getDOIFromURL/tandfonline.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="850">
+              <caret line="85" column="80" lean-forward="false" selection-start-line="85" selection-start-column="16" selection-end-line="85" selection-end-column="80" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="test_tandfonline.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/getdoi/tests/test_tandfonline.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="398">
+              <caret line="65" column="20" lean-forward="true" selection-start-line="65" selection-start-column="20" selection-end-line="65" selection-end-column="20" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="test_liebertpub.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/getdoi/tests/test_liebertpub.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="467">
+              <caret line="68" column="14" lean-forward="true" selection-start-line="68" selection-start-column="14" selection-end-line="68" selection-end-column="14" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="test_apa.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/getdoi/tests/test_apa.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="480">
+              <caret line="136" column="38" lean-forward="true" selection-start-line="136" selection-start-column="38" selection-end-line="136" selection-end-column="38" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="sagepub.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/getdoi/getDOIFromURL/sagepub.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="351">
+              <caret line="51" column="23" lean-forward="true" selection-start-line="51" selection-start-column="23" selection-end-line="51" selection-end-column="23" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="beautifulSoupModel.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/getdoi/scraping/beautifulSoupModel.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="399">
+              <caret line="255" column="18" lean-forward="true" selection-start-line="255" selection-start-column="18" selection-end-line="257" selection-end-column="23" />
+              <folding>
+                <element signature="e#808#829#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="test_beautifulSoupModel.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/getdoi/tests/test_beautifulSoupModel.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1030">
+              <caret line="75" column="44" lean-forward="true" selection-start-line="75" selection-start-column="44" selection-end-line="75" selection-end-column="44" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="test_sciencedirect.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/getdoi/tests/test_sciencedirect.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="60" column="23" lean-forward="true" selection-start-line="60" selection-start-column="23" selection-end-line="60" selection-end-column="23" />
               <folding />
             </state>
           </provider>
@@ -217,8 +357,8 @@
       <file leaf-file-name="springer.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/getdoi/getDOIFromURL/springer.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
-              <caret line="34" column="36" lean-forward="false" selection-start-line="34" selection-start-column="36" selection-end-line="34" selection-end-column="36" />
+            <state relative-caret-position="974">
+              <caret line="85" column="68" lean-forward="true" selection-start-line="85" selection-start-column="16" selection-end-line="85" selection-end-column="68" />
               <folding />
             </state>
           </provider>
@@ -227,8 +367,28 @@
       <file leaf-file-name="wiley.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/getdoi/getDOIFromURL/wiley.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
-              <caret line="34" column="36" lean-forward="false" selection-start-line="34" selection-start-column="36" selection-end-line="34" selection-end-column="36" />
+            <state relative-caret-position="187">
+              <caret line="51" column="23" lean-forward="false" selection-start-line="51" selection-start-column="23" selection-end-line="51" selection-end-column="23" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="test_wiley.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/getdoi/tests/test_wiley.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="493">
+              <caret line="66" column="27" lean-forward="false" selection-start-line="66" selection-start-column="27" selection-end-line="66" selection-end-column="27" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="test_translatorScholarQuery.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/getdoi/tests/test_translatorScholarQuery.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-622">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -237,9 +397,11 @@
       <file leaf-file-name="psycnet.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/getdoi/getDOIFromURL/psycnet.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="525">
-              <caret line="35" column="40" lean-forward="false" selection-start-line="35" selection-start-column="40" selection-end-line="35" selection-end-column="40" />
-              <folding />
+            <state relative-caret-position="763">
+              <caret line="77" column="26" lean-forward="true" selection-start-line="77" selection-start-column="26" selection-end-line="77" selection-end-column="26" />
+              <folding>
+                <element signature="e#822#858#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -247,9 +409,11 @@
       <file leaf-file-name="pmc.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/getdoi/getDOIFromURL/pmc.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="525">
-              <caret line="35" column="40" lean-forward="false" selection-start-line="35" selection-start-column="40" selection-end-line="35" selection-end-column="40" />
-              <folding />
+            <state relative-caret-position="465">
+              <caret line="61" column="68" lean-forward="true" selection-start-line="61" selection-start-column="15" selection-end-line="61" selection-end-column="68" />
+              <folding>
+                <element signature="e#818#854#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -257,8 +421,8 @@
       <file leaf-file-name="plos.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/getdoi/getDOIFromURL/plos.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="645">
-              <caret line="101" column="92" lean-forward="false" selection-start-line="101" selection-start-column="15" selection-end-line="101" selection-end-column="92" />
+            <state relative-caret-position="1062">
+              <caret line="98" column="27" lean-forward="false" selection-start-line="98" selection-start-column="27" selection-end-line="98" selection-end-column="27" />
               <folding>
                 <element signature="e#819#855#0" expanded="true" />
               </folding>
@@ -266,21 +430,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="test_apa.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/getdoi/tests/test_apa.py">
+      <file leaf-file-name="gettableArticleURL.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/getdoi/getArticleURL/gettableArticleURL.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="525">
-              <caret line="35" column="54" lean-forward="false" selection-start-line="35" selection-start-column="54" selection-end-line="35" selection-end-column="54" />
+            <state relative-caret-position="623">
+              <caret line="47" column="15" lean-forward="false" selection-start-line="47" selection-start-column="4" selection-end-line="47" selection-end-column="15" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="gettableArticleURL.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/getdoi/getArticleURL/gettableArticleURL.py">
+      <file leaf-file-name="__init__.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/getdoi/tests/__init__.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="20" column="14" lean-forward="true" selection-start-line="20" selection-start-column="14" selection-end-line="20" selection-end-column="14" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -289,8 +453,8 @@
       <file leaf-file-name="translateGoogleScholarQuery.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/getdoi/getArticleURL/translateGoogleScholarQuery.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="960">
-              <caret line="65" column="33" lean-forward="false" selection-start-line="65" selection-start-column="6" selection-end-line="65" selection-end-column="33" />
+            <state relative-caret-position="151">
+              <caret line="68" column="15" lean-forward="false" selection-start-line="68" selection-start-column="4" selection-end-line="68" selection-end-column="15" />
               <folding>
                 <element signature="e#1378#1397#0" expanded="true" />
               </folding>
@@ -301,28 +465,8 @@
       <file leaf-file-name="getArticleURLController.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/getdoi/getArticleURL/getArticleURLController.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="268">
-              <caret line="40" column="47" lean-forward="false" selection-start-line="40" selection-start-column="47" selection-end-line="40" selection-end-column="47" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="translatorKebabCase.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/getdoi/translator/translatorKebabCase.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="__init__.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/getdoi/getArticleURL/__init__.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="533">
+              <caret line="92" column="39" lean-forward="false" selection-start-line="92" selection-start-column="39" selection-end-line="92" selection-end-column="39" />
               <folding />
             </state>
           </provider>
@@ -351,7 +495,7 @@
       <file leaf-file-name="ioTextFile.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/getdoi/reader/ioTextFile.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="720">
+            <state relative-caret-position="544">
               <caret line="48" column="12" lean-forward="false" selection-start-line="48" selection-start-column="12" selection-end-line="48" selection-end-column="12" />
               <folding />
             </state>
@@ -360,16 +504,6 @@
       </file>
       <file leaf-file-name="__init__.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/getdoi/getDOIFromURL/__init__.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="__init__.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/getdoi/translator/__init__.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -388,11 +522,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1710">
-              <caret line="114" column="0" lean-forward="true" selection-start-line="114" selection-start-column="0" selection-end-line="114" selection-end-column="0" />
+            <state relative-caret-position="300">
+              <caret line="20" column="6" lean-forward="false" selection-start-line="20" selection-start-column="6" selection-end-line="20" selection-end-column="6" />
               <folding />
             </state>
           </provider>
@@ -411,7 +545,7 @@
       <file leaf-file-name="test_plos.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/getdoi/tests/test_plos.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
+            <state relative-caret-position="-484">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
@@ -439,36 +573,36 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>text[</find>
-      <find>get_journal_title</find>
-      <find>test_APA_citation_TwoAuthors_BracketsAndPeriodInTitle_NoDOI</find>
-      <find>get_volume</find>
-      <find>human ge</find>
-      <find>readTe</find>
-      <find>print_citation_type</find>
-      <find>getdoi.getDOIFromURL</find>
-      <find>Operant models of relapse in zebrafish (Danio rerio).</find>
-      <find>GoogleScholar</find>
-      <find>from tests.test_</find>
-      <find>Citation</find>
-      <find>__decision_title_match_links</find>
-      <find>Main</find>
-      <find>__controller_work_on_terminal</find>
-      <find>GetArticleURLControllerStandAloneImpl</find>
-      <find>GetDOIFromURLControllerImpl</find>
-      <find>__get_url_from_url_type</find>
-      <find>get_journal_type</find>
-      <find>__translate_beautiful_soup</find>
-      <find>__find_anchor</find>
       <find>GetArticleURLControllerImpl</find>
       <find>__decision_is_file_path</find>
       <find>__controller_select_work</find>
       <find>copyright</find>
       <find>TranslateEscapeSequence</find>
-      <find>__usecase_get_doi_using_citation</find>
       <find>__controller_work_using_arguments</find>
       <find>getArticleInfoFromCitation</find>
+      <find>__get_url_from_url_type</find>
+      <find>__get_type_str</find>
+      <find>get_anchors</find>
+      <find>get_html</find>
+      <find>__translate_beautiful_soup</find>
+      <find>__find_anchor</find>
+      <find>__find_class</find>
+      <find>,</find>
+      <find>doi</find>
+      <find>doi:</find>
+      <find>DOI:</find>
+      <find>10.1126/science.1114519</find>
+      <find>__find_data_track_sources</find>
+      <find>10.1038/79951</find>
+      <find>DOI_STR</find>
       <find>ReadEnteredTextImpl</find>
+      <find>__proceed</find>
+      <find>is_confirm</find>
+      <find>__usecase_get_doi_using_article_url</find>
+      <find>__usecase_get_doi_using_citation</find>
+      <find>no</find>
+      <find>Found</find>
+      <find>writte</find>
     </findStrings>
     <replaceStrings>
       <replace>PMC</replace>
@@ -493,25 +627,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/getdoi/getArticleInfoFromCitationFormat/getArticleInfoFromCitationFormatController.py" />
-        <option value="$PROJECT_DIR$/getdoi/getArticleInfoFromCitation/getArticleInfoFromCitationFormatController.py" />
-        <option value="$PROJECT_DIR$/getdoi/getArticleInfoFromCitation/getArticleInfoFromCitationController.py" />
-        <option value="$PROJECT_DIR$/getdoi/getArticleInfoFromCitation/gettableArticleInfo.py" />
-        <option value="$PROJECT_DIR$/getdoi/getArticleInfoFromCitation/apa.py" />
-        <option value="$PROJECT_DIR$/getdoi/getArticleInfoFromCitation/__main__.py" />
-        <option value="$PROJECT_DIR$/tests/test_getArticleInfoFromCitationController.py" />
-        <option value="$PROJECT_DIR$/getdoi/getJournalURL/getJournalURLFromGoogleScholar.py" />
-        <option value="$PROJECT_DIR$/getdoi/getDOIFromURL/plos.py" />
-        <option value="$PROJECT_DIR$/getdoi/getDOIFromURL/pmc.py" />
-        <option value="$PROJECT_DIR$/getdoi/getDOIFromURL/psycnet.py" />
-        <option value="$PROJECT_DIR$/getdoi/getDOIFromURL/springer.py" />
-        <option value="$PROJECT_DIR$/getdoi/getDOIFromURL/wiley.py" />
-        <option value="$PROJECT_DIR$/getdoi/getDOIFromURL/__init__.py" />
-        <option value="$PROJECT_DIR$/getdoi/getArticleInfoFromCitation/__init__.py" />
-        <option value="$PROJECT_DIR$/getdoi/articleinfo/getArticleInfoFromCitation/__init__.py" />
-        <option value="$PROJECT_DIR$/Makefile" />
-        <option value="$PROJECT_DIR$/getdoi/tests/test_all.py" />
-        <option value="$PROJECT_DIR$/getdoi/tests/test_apa.py" />
         <option value="$PROJECT_DIR$/getdoi/getJournalURL/getJournalURLController.py" />
         <option value="$PROJECT_DIR$/getdoi/getJournalURL/googleScholar.py" />
         <option value="$PROJECT_DIR$/getdoi/articleinfo/getArticleInfoFromCitation/gettableArticleInfo.py" />
@@ -527,23 +642,42 @@
         <option value="$PROJECT_DIR$/getdoi/articleinfo/getArticleInfoFromCitation/getArticleInfoFromCitationController.py" />
         <option value="$PROJECT_DIR$/getdoi/articleinfo/__init__.py" />
         <option value="$PROJECT_DIR$/getdoi/getArticleURL/getArticleURLControllerStandAlone.py" />
-        <option value="$PROJECT_DIR$/getdoi/getDOIFromURL/sciencedirect.py" />
-        <option value="$PROJECT_DIR$/getdoi/scraping/beautifulSoupModel.py" />
         <option value="$PROJECT_DIR$/getdoi/getDOIFromURL/getDOIFromURLControllerStandAlone.py" />
         <option value="$PROJECT_DIR$/getdoi/notice.py" />
-        <option value="$PROJECT_DIR$/getdoi/getDOIFromURL/getDOIFromURLController.py" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/getdoi/reader/readTextFile.py" />
         <option value="$PROJECT_DIR$/getdoi/reader/readEnteredText.py" />
         <option value="$PROJECT_DIR$/scripts/getdoi" />
         <option value="$PROJECT_DIR$/getdoi/articleinfo/getArticleInfoFromCitation/getArticleInfoFromCitationControllerStandAlone.py" />
         <option value="$PROJECT_DIR$/getdoi/reader/ioTextFile.py" />
-        <option value="$PROJECT_DIR$/setup.py" />
-        <option value="$PROJECT_DIR$/getdoi/__init__.py" />
         <option value="$PROJECT_DIR$/getdoi/getArticleURL/googleScholar.py" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/getdoi/tests/test_sciencedirect.py" />
+        <option value="$PROJECT_DIR$/getdoi/tests/test_tandfonline.py" />
+        <option value="$PROJECT_DIR$/getdoi/getDOIFromURL/gettableDOI.py" />
+        <option value="$PROJECT_DIR$/getdoi/tests/test_liebertpub.py" />
+        <option value="$PROJECT_DIR$/getdoi/getDOIFromURL/liebertpub.py" />
+        <option value="$PROJECT_DIR$/getdoi/getDOIFromURL/plos.py" />
+        <option value="$PROJECT_DIR$/getdoi/getDOIFromURL/pmc.py" />
+        <option value="$PROJECT_DIR$/getdoi/getDOIFromURL/tandfonline.py" />
+        <option value="$PROJECT_DIR$/getdoi/tests/test_psycnet.py" />
+        <option value="$PROJECT_DIR$/getdoi/getDOIFromURL/psycnet.py" />
+        <option value="$PROJECT_DIR$/getdoi/getDOIFromURL/sciencedirect.py" />
+        <option value="$PROJECT_DIR$/getdoi/tests/test_nature.py" />
+        <option value="$PROJECT_DIR$/getdoi/getDOIFromURL/sagepub.py" />
+        <option value="$PROJECT_DIR$/getdoi/getDOIFromURL/springer.py" />
+        <option value="$PROJECT_DIR$/getdoi/getDOIFromURL/wiley.py" />
+        <option value="$PROJECT_DIR$/getdoi/tests/test_wiley.py" />
+        <option value="$PROJECT_DIR$/getdoi/tests/test_sagepub.py" />
+        <option value="$PROJECT_DIR$/getdoi/tests/test_science.py" />
+        <option value="$PROJECT_DIR$/getdoi/scraping/beautifulSoupModel.py" />
+        <option value="$PROJECT_DIR$/getdoi/getDOIFromURL/science.py" />
+        <option value="$PROJECT_DIR$/getdoi/getDOIFromURL/nature.py" />
+        <option value="$PROJECT_DIR$/setup.py" />
         <option value="$PROJECT_DIR$/getdoi/getArticleURL/gettableArticleURL.py" />
         <option value="$PROJECT_DIR$/getdoi/getArticleURL/getArticleURLController.py" />
-        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/getdoi/__init__.py" />
+        <option value="$PROJECT_DIR$/getdoi/getDOIFromURL/getDOIFromURLController.py" />
       </list>
     </option>
   </component>
@@ -612,6 +746,12 @@
             <path>
               <item name="getdoi" type="b2602c69:ProjectViewProjectNode" />
               <item name="getdoi" type="462c0819:PsiDirectoryNode" />
+              <item name="getdoi" type="462c0819:PsiDirectoryNode" />
+              <item name="tests" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="getdoi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="getdoi" type="462c0819:PsiDirectoryNode" />
               <item name="scripts" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -625,6 +765,7 @@
   <component name="PropertiesComponent">
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="SearchEverywhereHistoryKey" value="get_html&#9;null&#9;null&#10;g&#9;FILE&#9;file:///Users/ym/Documents/UserFile/Programs/Python/Python3/getdoi/LICENSE" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -684,61 +825,25 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="getArticleInfoFromCitationControllerStandAlone" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="beautifulSoupModel" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/getdoi/articleinfo/getArticleInfoFromCitation" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/getdoi/scraping" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="getdoi" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/getdoi/articleinfo/getArticleInfoFromCitation/getArticleInfoFromCitationControllerStandAlone.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/getdoi/scraping/beautifulSoupModel.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="getArticleURLControllerStandAlone" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/getdoi/getArticleURL" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="getdoi" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/getdoi/getArticleURL/getArticleURLControllerStandAlone.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
-    <configuration name="getDOIFromURLControllerStandAlone" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/getdoi/getDOIFromURL" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="getdoi" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/getdoi/getDOIFromURL/getDOIFromURLControllerStandAlone.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
-    <configuration name="test_sciencedirect" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="test_science" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -750,7 +855,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="getdoi" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/getdoi/tests/test_sciencedirect.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/getdoi/tests/test_science.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -825,6 +930,34 @@
       <option name="_new_target" value="&quot;.&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
     </configuration>
+    <configuration name="Unittests for test_science.TestScience" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/getdoi/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="getdoi" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_science.TestScience&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+    </configuration>
+    <configuration name="Unittests in test_nature.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/getdoi/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="getdoi" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/getdoi/tests/test_nature.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+    </configuration>
     <configuration default="true" type="tests" factoryName="Doctests">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -844,19 +977,19 @@
       <option name="USE_PATTERN" value="false" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.__init__" />
-      <item index="1" class="java.lang.String" itemvalue="Python.getArticleInfoFromCitationControllerStandAlone" />
-      <item index="2" class="java.lang.String" itemvalue="Python.getArticleURLControllerStandAlone" />
-      <item index="3" class="java.lang.String" itemvalue="Python.getDOIFromURLControllerStandAlone" />
-      <item index="4" class="java.lang.String" itemvalue="Python.test_sciencedirect" />
+      <item index="0" class="java.lang.String" itemvalue="Python.beautifulSoupModel" />
+      <item index="1" class="java.lang.String" itemvalue="Python.test_science" />
+      <item index="2" class="java.lang.String" itemvalue="Python tests.Unittests for test_science.TestScience" />
+      <item index="3" class="java.lang.String" itemvalue="Python tests.Unittests in test_nature.py" />
+      <item index="4" class="java.lang.String" itemvalue="Python.__init__" />
     </list>
     <recent_temporary>
       <list size="5">
         <item index="0" class="java.lang.String" itemvalue="Python.__init__" />
-        <item index="1" class="java.lang.String" itemvalue="Python.getDOIFromURLControllerStandAlone" />
-        <item index="2" class="java.lang.String" itemvalue="Python.test_sciencedirect" />
-        <item index="3" class="java.lang.String" itemvalue="Python.getArticleURLControllerStandAlone" />
-        <item index="4" class="java.lang.String" itemvalue="Python.getArticleInfoFromCitationControllerStandAlone" />
+        <item index="1" class="java.lang.String" itemvalue="Python.beautifulSoupModel" />
+        <item index="2" class="java.lang.String" itemvalue="Python tests.Unittests in test_nature.py" />
+        <item index="3" class="java.lang.String" itemvalue="Python tests.Unittests for test_science.TestScience" />
+        <item index="4" class="java.lang.String" itemvalue="Python.test_science" />
       </list>
     </recent_temporary>
   </component>
@@ -877,46 +1010,46 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittests_for_test_apa_TestAPA_test_APA_citation_TwoAuthors_BracketsAndPeriodInTitle_NoDOI - 2017.12.12 at 00h 03m 05s.xml">
-      <configuration name="Unittests for test_apa.TestAPA.test_APA_citation_TwoAuthors_BracketsAndPeriodInTitle_NoDOI" configurationId="tests" />
+    <history-entry file="Unittests_for_test_science_TestScience - 2017.12.21 at 12h 04m 48s.xml">
+      <configuration name="Unittests for test_science.TestScience" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_apa_TestAPA_test_APA_citation_TwoAuthors_BracketsAndPeriodInTitle_NoDOI - 2017.12.12 at 00h 04m 29s.xml">
-      <configuration name="Unittests for test_apa.TestAPA.test_APA_citation_TwoAuthors_BracketsAndPeriodInTitle_NoDOI" configurationId="tests" />
+    <history-entry file="Unittests_for_test_science_TestScience - 2017.12.21 at 12h 06m 20s.xml">
+      <configuration name="Unittests for test_science.TestScience" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_apa_TestAPA_test_APA_citation_TwoAuthors_BracketsAndPeriodInTitle_NoDOI - 2017.12.12 at 00h 04m 48s.xml">
-      <configuration name="Unittests for test_apa.TestAPA.test_APA_citation_TwoAuthors_BracketsAndPeriodInTitle_NoDOI" configurationId="tests" />
+    <history-entry file="Unittests_for_test_science_TestScience - 2017.12.21 at 12h 19m 31s.xml">
+      <configuration name="Unittests for test_science.TestScience" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_apa_TestAPA_test_APA_citation_TwoAuthors_BracketsAndPeriodInTitle_NoDOI - 2017.12.12 at 00h 04m 58s.xml">
-      <configuration name="Unittests for test_apa.TestAPA.test_APA_citation_TwoAuthors_BracketsAndPeriodInTitle_NoDOI" configurationId="tests" />
+    <history-entry file="Unittests_in_test_all_py - 2017.12.21 at 10h 32m 44s.xml">
+      <configuration name="Unittests in test_all.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_test_apa_py - 2017.12.12 at 00h 05m 08s.xml">
-      <configuration name="Unittests in test_apa.py" configurationId="tests" />
+    <history-entry file="Unittests_in_test_all_py - 2017.12.21 at 10h 41m 45s.xml">
+      <configuration name="Unittests in test_all.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_test_apa_py - 2017.12.12 at 00h 05m 32s.xml">
-      <configuration name="Unittests in test_apa.py" configurationId="tests" />
+    <history-entry file="Unittests_in_test_all_py - 2017.12.21 at 10h 42m 35s.xml">
+      <configuration name="Unittests in test_all.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_test_apa_py - 2017.12.12 at 00h 06m 19s.xml">
-      <configuration name="Unittests in test_apa.py" configurationId="tests" />
+    <history-entry file="Unittests_in_test_all_py - 2017.12.21 at 10h 43m 02s.xml">
+      <configuration name="Unittests in test_all.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_test_apa_py - 2017.12.12 at 00h 06m 21s.xml">
-      <configuration name="Unittests in test_apa.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_in_test_apa_py - 2017.12.12 at 00h 06m 24s.xml">
-      <configuration name="Unittests in test_apa.py" configurationId="tests" />
+    <history-entry file="Unittests_in_test_all_py - 2017.12.21 at 10h 45m 17s.xml">
+      <configuration name="Unittests in test_all.py" configurationId="tests" />
     </history-entry>
     <history-entry file="Unittests_in_test_apa_py - 2017.12.12 at 00h 06m 31s.xml">
       <configuration name="Unittests in test_apa.py" configurationId="tests" />
     </history-entry>
+    <history-entry file="Unittests_in_test_nature_py - 2017.12.21 at 12h 25m 05s.xml">
+      <configuration name="Unittests in test_nature.py" configurationId="tests" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="GfmBrowser" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17847222" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2576389" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33529413" sideWeight="0.50277776" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15058823" sideWeight="0.49722221" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2482353" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26941177" sideWeight="0.49722221" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -928,7 +1061,6 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19176471" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
@@ -959,161 +1091,23 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="3" />
+      <option name="time" value="5" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/getdoi/tests/test_wiley.py">
+    <entry file="file://$PROJECT_DIR$/getdoi/getDOIFromURL/liebertpub.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/getdoi/tests/test_translatorKebabCase.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/getdoi/tests/test_translateEscapeSequence.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/getdoi/tests/test_getDOIFromURLPresenter.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/getdoi/tests/test_plos.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="823">
+          <caret line="81" column="27" lean-forward="false" selection-start-line="81" selection-start-column="27" selection-end-line="81" selection-end-column="27" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/getdoi/tests/test_main.py">
+    <entry file="file://$PROJECT_DIR$/getdoi/tests/test_beautifulSoupModel.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="690">
-          <caret line="46" column="16" lean-forward="false" selection-start-line="46" selection-start-column="16" selection-end-line="46" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/getdoi/tests/test_apa.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="35" column="54" lean-forward="false" selection-start-line="35" selection-start-column="54" selection-end-line="35" selection-end-column="54" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/getdoi/translator/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/getdoi/tests/test_getArticleInfoFromCitationController.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="660">
-          <caret line="44" column="0" lean-forward="false" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/getdoi/articleinfo/getArticleInfoFromCitation/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/getdoi/translator/translateEscapeSequence.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/getdoi/translator/translatorKebabCase.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/getdoi/getDOIFromURL/springer.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="34" column="36" lean-forward="false" selection-start-line="34" selection-start-column="36" selection-end-line="34" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/getdoi/getDOIFromURL/wiley.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="34" column="36" lean-forward="false" selection-start-line="34" selection-start-column="36" selection-end-line="34" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/getdoi/tests/test_sciencedirect.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="13" lean-forward="false" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/getdoi/notice.py" />
-    <entry file="file://$PROJECT_DIR$/getdoi/getArticleURL/translateGoogleScholarQuery.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="960">
-          <caret line="65" column="33" lean-forward="false" selection-start-line="65" selection-start-column="6" selection-end-line="65" selection-end-column="33" />
-          <folding>
-            <element signature="e#1378#1397#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.rst" />
-    <entry file="file://$PROJECT_DIR$/getdoi/getArticleURL/getArticleURLControllerStandAlone.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1605">
-          <caret line="108" column="54" lean-forward="false" selection-start-line="108" selection-start-column="54" selection-end-line="108" selection-end-column="54" />
-          <folding>
-            <element signature="e#838#922#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/getdoi/articleinfo/getArticleInfoFromCitation/getArticleInfoFromCitationController.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3120">
-          <caret line="208" column="0" lean-forward="false" selection-start-line="208" selection-start-column="0" selection-end-line="209" selection-end-column="54" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/getdoi/reader/ioTextFile.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="720">
-          <caret line="48" column="12" lean-forward="false" selection-start-line="48" selection-start-column="12" selection-end-line="48" selection-end-column="12" />
+        <state relative-caret-position="1030">
+          <caret line="75" column="44" lean-forward="true" selection-start-line="75" selection-start-column="44" selection-end-line="75" selection-end-column="44" />
           <folding />
         </state>
       </provider>
@@ -1126,68 +1120,28 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/getdoi/getDOIFromURL/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/getdoi/getDOIFromURL/getDOIFromURLController.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1965">
-          <caret line="131" column="26" lean-forward="false" selection-start-line="131" selection-start-column="26" selection-end-line="131" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/getdoi/getDOIFromURL/pmc.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="35" column="40" lean-forward="false" selection-start-line="35" selection-start-column="40" selection-end-line="35" selection-end-column="40" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/getdoi/getDOIFromURL/psycnet.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="35" column="40" lean-forward="false" selection-start-line="35" selection-start-column="40" selection-end-line="35" selection-end-column="40" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/getdoi/getDOIFromURL/sciencedirect.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1185">
-          <caret line="80" column="0" lean-forward="false" selection-start-line="80" selection-start-column="0" selection-end-line="80" selection-end-column="0" />
+        <state relative-caret-position="763">
+          <caret line="77" column="26" lean-forward="true" selection-start-line="77" selection-start-column="26" selection-end-line="77" selection-end-column="26" />
           <folding>
-            <element signature="e#828#864#0" expanded="true" />
+            <element signature="e#822#858#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/getdoi/getDOIFromURL/gettableDOI.py">
+    <entry file="file://$PROJECT_DIR$/getdoi/getDOIFromURL/tandfonline.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="870">
-          <caret line="58" column="0" lean-forward="false" selection-start-line="58" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
+        <state relative-caret-position="850">
+          <caret line="85" column="80" lean-forward="false" selection-start-line="85" selection-start-column="16" selection-end-line="85" selection-end-column="80" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Makefile">
+    <entry file="file://$PROJECT_DIR$/getdoi/getDOIFromURL/wiley.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MANIFEST.in">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="187">
+          <caret line="51" column="23" lean-forward="false" selection-start-line="51" selection-start-column="23" selection-end-line="51" selection-end-column="23" />
           <folding />
         </state>
       </provider>
@@ -1203,34 +1157,50 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/LICENSE">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/getdoi/articleinfo/getArticleInfoFromCitation/getArticleInfoFromCitationControllerStandAlone.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="773">
-          <caret line="125" column="35" lean-forward="false" selection-start-line="125" selection-start-column="35" selection-end-line="125" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/getdoi/articleinfo/getArticleInfoFromCitation/gettableArticleInfo.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="20" lean-forward="false" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/getdoi/articleinfo/__init__.py">
+    <entry file="file://$PROJECT_DIR$/MANIFEST.in">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/getdoi/tests/test_translatorScholarQuery.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-622">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/getdoi/tests/test_wiley.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="66" column="27" lean-forward="false" selection-start-line="66" selection-start-column="27" selection-end-line="66" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/getdoi/tests/test_tandfonline.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="398">
+          <caret line="65" column="20" lean-forward="true" selection-start-line="65" selection-start-column="20" selection-end-line="65" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/getdoi/tests/test_springer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="413">
+          <caret line="66" column="56" lean-forward="false" selection-start-line="66" selection-start-column="19" selection-end-line="66" selection-end-column="56" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/getdoi/getDOIFromURL/springer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="974">
+          <caret line="85" column="68" lean-forward="true" selection-start-line="85" selection-start-column="16" selection-end-line="85" selection-end-column="68" />
           <folding />
         </state>
       </provider>
@@ -1240,26 +1210,10 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/getdoi/getDOIFromURL/getDOIFromURLControllerStandAlone.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="81" column="21" lean-forward="false" selection-start-line="81" selection-start-column="21" selection-end-line="81" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/getdoi/reader/__init__.py">
+    <entry file="file://$PROJECT_DIR$/getdoi/tests/test_readTextFile.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/getdoi/reader/readEnteredText.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="847">
-          <caret line="84" column="24" lean-forward="false" selection-start-line="84" selection-start-column="24" selection-end-line="84" selection-end-column="24" />
           <folding />
         </state>
       </provider>
@@ -1272,13 +1226,183 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/getdoi/tests/test_readEnteredText.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/getdoi/tests/test_psycnet.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="353">
+          <caret line="72" column="0" lean-forward="true" selection-start-line="72" selection-start-column="0" selection-end-line="72" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/getdoi/tests/test_pmc.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-575">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/getdoi/getDOIFromURL/pmc.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="61" column="68" lean-forward="true" selection-start-line="61" selection-start-column="15" selection-end-line="61" selection-end-column="68" />
+          <folding>
+            <element signature="e#818#854#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/getdoi/tests/test_plos.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-484">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/getdoi/tests/test_main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="690">
+          <caret line="46" column="16" lean-forward="false" selection-start-line="46" selection-start-column="16" selection-end-line="46" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/getdoi/tests/test_apa.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="136" column="38" lean-forward="true" selection-start-line="136" selection-start-column="38" selection-end-line="136" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Makefile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/getdoi/tests/test_sagepub.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="492">
+          <caret line="66" column="23" lean-forward="true" selection-start-line="66" selection-start-column="23" selection-end-line="66" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/getdoi/tests/test_sciencedirect.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="60" column="23" lean-forward="true" selection-start-line="60" selection-start-column="23" selection-end-line="60" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/getdoi/tests/test_liebertpub.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="467">
+          <caret line="68" column="14" lean-forward="true" selection-start-line="68" selection-start-column="14" selection-end-line="68" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/getdoi/getDOIFromURL/sagepub.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="51" column="23" lean-forward="true" selection-start-line="51" selection-start-column="23" selection-end-line="51" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/getdoi/getDOIFromURL/plos.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1062">
+          <caret line="98" column="27" lean-forward="false" selection-start-line="98" selection-start-column="27" selection-end-line="98" selection-end-column="27" />
+          <folding>
+            <element signature="e#819#855#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/getdoi/tests/test_science.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="349">
+          <caret line="75" column="44" lean-forward="true" selection-start-line="75" selection-start-column="44" selection-end-line="75" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/getdoi/scraping/beautifulSoupModel.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="648">
-          <caret line="68" column="26" lean-forward="false" selection-start-line="68" selection-start-column="26" selection-end-line="68" selection-end-column="26" />
+        <state relative-caret-position="399">
+          <caret line="255" column="18" lean-forward="true" selection-start-line="255" selection-start-column="18" selection-end-line="257" selection-end-column="23" />
           <folding>
             <element signature="e#808#829#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/getdoi/getDOIFromURL/nature.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="249">
+          <caret line="73" column="21" lean-forward="false" selection-start-line="73" selection-start-column="21" selection-end-line="73" selection-end-column="21" />
+          <folding>
+            <element signature="e#821#857#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/getdoi/tests/test_nature.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="79">
+          <caret line="61" column="36" lean-forward="true" selection-start-line="61" selection-start-column="36" selection-end-line="61" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/setup.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="18" lean-forward="false" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/getdoi/getDOIFromURL/sciencedirect.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="669">
+          <caret line="84" column="0" lean-forward="true" selection-start-line="84" selection-start-column="0" selection-end-line="88" selection-end-column="61" />
+          <folding>
+            <element signature="e#828#864#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/getdoi/getDOIFromURL/science.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="409">
+          <caret line="73" column="41" lean-forward="true" selection-start-line="73" selection-start-column="41" selection-end-line="73" selection-end-column="41" />
+          <folding>
+            <element signature="e#822#858#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/getdoi">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="86">
+          <caret line="37" column="23" lean-forward="false" selection-start-line="37" selection-start-column="23" selection-end-line="37" selection-end-column="23" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1290,35 +1414,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/getdoi">
+    <entry file="file://$PROJECT_DIR$/getdoi/getArticleURL/translateGoogleScholarQuery.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="37" column="23" lean-forward="false" selection-start-line="37" selection-start-column="23" selection-end-line="37" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/getdoi/articleinfo/articleInfo.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="393">
-          <caret line="58" column="20" lean-forward="true" selection-start-line="58" selection-start-column="20" selection-end-line="58" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/getdoi/getArticleURL/getArticleURLController.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="268">
-          <caret line="40" column="47" lean-forward="false" selection-start-line="40" selection-start-column="47" selection-end-line="40" selection-end-column="47" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/getdoi/getArticleURL/gettableArticleURL.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="14" lean-forward="true" selection-start-line="20" selection-start-column="14" selection-end-line="20" selection-end-column="14" />
-          <folding />
+        <state relative-caret-position="151">
+          <caret line="68" column="15" lean-forward="false" selection-start-line="68" selection-start-column="4" selection-end-line="68" selection-end-column="15" />
+          <folding>
+            <element signature="e#1378#1397#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1330,39 +1432,98 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/getdoi/getDOIFromURL/plos.py">
+    <entry file="file://$PROJECT_DIR$/getdoi/getArticleURL/getArticleURLControllerStandAlone.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="645">
-          <caret line="101" column="92" lean-forward="false" selection-start-line="101" selection-start-column="15" selection-end-line="101" selection-end-column="92" />
+        <state relative-caret-position="178">
+          <caret line="91" column="15" lean-forward="false" selection-start-line="91" selection-start-column="15" selection-end-line="91" selection-end-column="15" />
           <folding>
-            <element signature="e#819#855#0" expanded="true" />
+            <element signature="e#838#922#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/getdoi/getArticleURL/getArticleURLController.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="533">
+          <caret line="92" column="39" lean-forward="false" selection-start-line="92" selection-start-column="39" selection-end-line="92" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LICENSE">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/getdoi/getDOIFromURL/gettableDOI.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="473">
+          <caret line="46" column="22" lean-forward="false" selection-start-line="46" selection-start-column="22" selection-end-line="46" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/getdoi/getDOIFromURL/getDOIFromURLControllerStandAlone.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="111" column="28" lean-forward="true" selection-start-line="111" selection-start-column="28" selection-end-line="115" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/getdoi/getArticleURL/gettableArticleURL.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="623">
+          <caret line="47" column="15" lean-forward="false" selection-start-line="47" selection-start-column="4" selection-end-line="47" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/getdoi/tests/test_all.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-90">
+          <caret line="29" column="15" lean-forward="true" selection-start-line="29" selection-start-column="15" selection-end-line="29" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/getdoi/tests/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/getdoi/reader/ioTextFile.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="48" column="12" lean-forward="false" selection-start-line="48" selection-start-column="12" selection-end-line="48" selection-end-column="12" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/getdoi/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="43" column="0" lean-forward="true" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
+        <state relative-caret-position="1162">
+          <caret line="115" column="21" lean-forward="true" selection-start-line="115" selection-start-column="21" selection-end-line="115" selection-end-column="21" />
           <folding>
             <element signature="e#773#783#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/setup.py">
+    <entry file="file://$PROJECT_DIR$/getdoi/getDOIFromURL/getDOIFromURLController.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="30" column="30" lean-forward="true" selection-start-line="30" selection-start-column="30" selection-end-line="30" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1710">
-          <caret line="114" column="0" lean-forward="true" selection-start-line="114" selection-start-column="0" selection-end-line="114" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="455">
+          <caret line="74" column="17" lean-forward="true" selection-start-line="74" selection-start-column="17" selection-end-line="74" selection-end-column="17" />
+          <folding>
+            <marker date="1513829688000" expanded="true" signature="3749:4199" ph="..." />
+            <marker date="1513829688000" expanded="true" signature="3749:4438" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>

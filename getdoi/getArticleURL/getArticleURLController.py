@@ -91,7 +91,6 @@ class GetArticleURLControllerImpl(GettableArticleURL):
         type_str = ''
         if type == SearchType.GOOGLE_SCHOLAR:
             type_str = 'Google Scholar'
-
         print('Search site: {0}'.format(type_str))
 
     def __decision_include_keyword(self, *, keyword: str, text: str) -> bool:

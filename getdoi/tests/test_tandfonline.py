@@ -4,7 +4,7 @@
 # === About ============================================================================================================
 
 """
- test_psycnet.py
+ test_tandfonline.py
 
 Copyright © 2017 Yuto Mizutani.
 This software is released under the MIT License.
@@ -33,8 +33,7 @@ Python: 3.6.1
 import unittest
 """ Third party library """
 """ Local library """
-from getdoi.getDOIFromURL.psycnet import PsycNET
-from getdoi.getDOIFromURL.psycnet import SSLStateInPsycNET
+from getdoi.getDOIFromURL.tandfonline import TaylorAndFrancisOnline
 
 # === CONSTANTS ========================================================================================================
 
@@ -45,10 +44,10 @@ from getdoi.getDOIFromURL.psycnet import SSLStateInPsycNET
 # ======================================================================================================================
 
 
-class TestPsycNET(unittest.TestCase):
+class TestTaylorAndFrancisOnline(unittest.TestCase):
     @classmethod
     def setUpClass(cls):
-        print('class TestPsycNET(unittest.TestCase):')
+        print('class TestTaylorAndFrancisOnline(unittest.TestCase):')
         print('def setUpClass(cls):')
 
     @classmethod
@@ -57,24 +56,15 @@ class TestPsycNET(unittest.TestCase):
 
     def setUp(self):
         print('def setUp(self):')
-        self.getter = PsycNET()
+        self.getter = TaylorAndFrancisOnline()
 
     def tearDown(self):
         print('def tearDown(self):')
 
-    def test_SSLStateInPsycNET(self):
-        print('def test_SSLStateInPsycNET(self):')
-        ssl_on = SSLStateInPsycNET()
-        self.assertEqual(ssl_on.get_doi_url('https://'), 'https://dx.doi.org/')
-        self.assertEqual(ssl_on.get_psycnet_url('https://'), 'https://psycnet.apa.org/doi/')
-        ssl_off = SSLStateInPsycNET()
-        self.assertEqual(ssl_off.get_doi_url('http://'), 'http://dx.doi.org/')
-        self.assertEqual(ssl_off.get_psycnet_url('http://'), 'http://psycnet.apa.org/doi/')
-
     def test_get_url(self):
         print('def test_get_url(self):')
-        url = 'http://psycnet.apa.org/journals/amp/18/8/503/'
-        doi = 'http://dx.doi.org/10.1037/h0045185'
+        url = 'http://www.tandfonline.com/doi/abs/10.1080/0097840X.1987.9936798'
+        doi = 'https://doi.org/10.1080/0097840X.1987.9936798'
         result = self.getter.get_url(url=url)
         print('URL: {0}'.format(url))
         print('DOI: {0}'.format(result))
@@ -82,8 +72,8 @@ class TestPsycNET(unittest.TestCase):
 
     def test_get_prev_format(self):
         print('def test_get_prev_format(self):')
-        url = 'http://psycnet.apa.org/journals/amp/18/8/503/'
-        doi = 'doi: 10.1037/h0045185'
+        url = 'http://www.tandfonline.com/doi/abs/10.1080/0097840X.1987.9936798'
+        doi = 'doi: 10.1080/0097840X.1987.9936798'
         result = self.getter.get_prev_format(url=url)
         print('URL: {0}'.format(url))
         print('DOI: {0}'.format(result))

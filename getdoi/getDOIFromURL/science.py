@@ -4,7 +4,7 @@
 # === About ============================================================================================================
 
 """
- sciencedirect.py
+ science.py
 
 Copyright © 2017 Yuto Mizutani.
 This software is released under the MIT License.
@@ -43,13 +43,19 @@ from getdoi.scraping.beautifulSoupModel import BeautifulSoupModelImpl
 
 # ======================================================================================================================
 
-class ScienceDirect(GettableDOI):
+class Science(GettableDOI):
+    # http://science.sciencemag.org/content/309/5732/3106
+    # 10.1126/science.1114519
     # -- constants --
-    # -- constants --
-    JOURNAL_URL = 'www.sciencedirect.com'
-    JOURNAL_STR = 'ScienceDirect'
+    JOURNAL_URL = 'science.sciencemag.org'
+    JOURNAL_STR = 'Science'
+    DOI_KEY = 'DOI: '
     DOI_URL = "https://doi.org/"
     DOI_STR = 'doi: '
+    META_KEY = 'name'
+    META_ID = 'citation_doi'
+
+    # natureは平文にdoi:10.1038/79951と記載されているのみである。
 
     # -- controller --
     def get(self, *, url)->str or None:
@@ -57,20 +63,13 @@ class ScienceDirect(GettableDOI):
 
     def get_url(self, *, url)->str or None:
         """return a full URL link"""
-        """doiをScienceDirectから読み込む。doiはa hrefのリンクtextである。"""
-        # e.g. http://www.sciencedirect.com/science/article/pii/104084289390007Q
+        """doiを読み込む。doiはmeta内である。"""
         soup = BeautifulSoupModelImpl()
-        anchor_links = soup.get_anchor_links(url=url)
-        # print(anchor_links)
-        """取得した全aタグリンクのうち，指定したジャーナルサイトURLに合致するものを検索"""
-        results = []
-        for link in anchor_links:
-            if self.DOI_URL in link:
-                results.append(link)
-        # print(results)
-        if len(results) > 0:
-            # print(results[0])
-            return results[0]
+        raw_doi = soup.get_meta_content(url=url, key=self.META_KEY, id=self.META_ID)
+        # print(raw_doi)
+        if raw_doi is not None:
+            doi_url = self.__translate_url(raw_doi=raw_doi)
+            return doi_url
         else:
             print('Any DOI found from {journal} ({link})'.format(journal=self.JOURNAL_STR, link=url))
             return None
@@ -84,6 +83,10 @@ class ScienceDirect(GettableDOI):
             return self.__translate_prev_format(doi_url=doi_url)
 
     # -- translator --
+    def __translate_url(self, *, raw_doi):
+        """10.1126/science.1114519からhttps://dx.doi.org/を加える。"""
+        return self.DOI_URL+raw_doi
+
     def __translate_prev_format(self, *, doi_url):
-        """https://doi.org/10.1016/1040-8428(93)90007-Q からdoi_keyを引く。"""
+        """https://doi.org/10.1126/science.1114519からhttps://doi.org/を引きdoi: を加える。"""
         return self.DOI_STR+doi_url.replace(self.DOI_URL, '')

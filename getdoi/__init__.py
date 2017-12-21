@@ -90,6 +90,7 @@ class Main:
 
     #### controller
     def __controller_select_work(self, arguments: [str]=None):
+        # 起動時の引数の有無で読み込みかターミナル起動か変更する。
         if arguments is not None:
             self.__controller_work_using_arguments(arguments)
         else:
@@ -104,7 +105,9 @@ class Main:
             self.__controller_get_doi(argv)
 
     def __controller_work_on_terminal(self):
-        reader = ReadEnteredTextImpl(display_input_instructions='Enter the citation format or the .txt file path written in it...')
+        reader = ReadEnteredTextImpl(
+            display_input_instructions='Enter the citation format, article URL or the .txt file path written in it...'
+        )
         while True:
             print()
             read_text = reader.read()
@@ -126,16 +129,37 @@ class Main:
             else:
                 print('Error! Path: \"{0}\" is invalid.'.format(argv))
         else:
-            citation = argv
-            self.__usecase_get_doi_using_citation(citation)
+            self.__usecase_select_work(content=argv)
 
     #### usecase
+    def __usecase_select_work(self, content: str=None, is_confirm: bool=True):
+        # contentがhttpから始まればscholarまたはarticleを探す。合致しなければcitationとして扱う。
+        if content is None or content == '':
+            print('Error! no content!')
+            return
+        elif self.__decision_include_keyword(keyword='http', text=content):
+            print('Entered type: URL')
+            url = self.__translate_blanks(content)
+            # decision search URL
+            # QUESTIONS: citation情報がないままsearchURLからDOIのみ持ってくる意味はあるのか？
+            #               -> 現状では不要と判断。
+            # decision article URL
+            getter_doi = GetDOIFromURLControllerImpl()
+            if getter_doi.get_journal_type(url=url, is_silent=True):
+                self.__usecase_get_doi_using_article_url('(You Inputted URL)', url, is_confirm)
+                return
+            else:
+                print('Could not find URL processing...')
+        else:
+            print('Entered type: citation')
+            self.__usecase_get_doi_using_citation(citation=content, is_confirm=is_confirm)
+
     def __usecase_get_doi_using_txt_file(self, path: str):
         io = IOTextFile()
         if io.decision_txt_file(path):
-            citations = io.open(path)
-            for citation in citations:
-                self.__usecase_get_doi_using_citation(citation, is_confirm=False)
+            contents = io.open(path)
+            for content in contents:
+                self.__usecase_select_work(content, is_confirm=False)
 
     def __usecase_get_doi_using_citation(self, citation: str, is_confirm: bool=True):
         print('>> {0}'.format(citation))
@@ -152,16 +176,21 @@ class Main:
             print(citation)
         print('First author: {0}'.format(article_info.first_author))
         print('Main title: {0}'.format(article_info.article_main_title))
-        if is_confirm:self.__proceed()
+        if is_confirm and not self.__proceed():
+                return
         article_url_getter = GetArticleURLControllerImpl()
         article_url = article_url_getter.get(article_info=article_info)
-        if article_url is None or article_url == '':
+        if article_url == '':
             print('Failed! Could not find article URL from citation...')
             print('First author: {0}'.format(article_info.first_author))
             print('Main title: {0}'.format(article_info.article_main_title))
             return
+        if is_confirm and not self.__proceed():
+                return
+        self.__usecase_get_doi_using_article_url(citation, article_url, is_confirm)
+
+    def __usecase_get_doi_using_article_url(self, citation: str, article_url: str, is_confirm: bool=True):
         print('Article URL: {0}'.format(article_url))
-        if is_confirm:self.__proceed()
         doi_getter = GetDOIFromURLControllerImpl()
         doi = doi_getter.get_url(url=article_url)
         if doi is None:

@@ -48,25 +48,25 @@ class SSLStateInPsycNET:
     """2017/12/11現在，PsycNETはSSL(https)に対応していない。変更時も動作するようにしておく。"""
     # -- constants --
     PROTOCOLS = ['https://', 'http://']
-    __IS_SSL_STATE = bool
     __DOI_URL = 'dx.doi.org/'
     __PSYCNET_URL = 'psycnet.apa.org/doi/'
 
-    @classmethod
-    def __decision_ssl_state(cls, url)->bool:
-        return cls.PROTOCOLS[0] in url
+    def get_doi_url(self, url):
+        return self.PROTOCOLS[0 if self.__decision_ssl_state(url) else 1]+self.__DOI_URL
 
-    def __init__(self, url):
-        self.IS_SSL_STATE = SSLStateInPsycNET.__decision_ssl_state(url)
+    def get_psycnet_url(self, url):
+        return self.PROTOCOLS[0 if self.__decision_ssl_state(url) else 1] + self.__PSYCNET_URL
 
-    def get_doi_url(self):
-        return self.PROTOCOLS[0 if self.__IS_SSL_STATE else 1]+self.__DOI_URL
-
-    def get_psycnet_url(self):
-        return self.PROTOCOLS[0 if self.__IS_SSL_STATE else 1] + self.__PSYCNET_URL
+    def __decision_ssl_state(self, url)->bool:
+        return self.PROTOCOLS[0] in url
 
 
 class PsycNET(GettableDOI):
+    # -- constants --
+    JOURNAL_URL = 'psycnet.apa.org'
+    JOURNAL_STR = 'PsychoNET APA'
+    DOI_STR = 'doi: '
+
     # -- controller --
     def get(self, *, url: str)->str or None:
         return self.get_url(url=url)
@@ -81,7 +81,7 @@ class PsycNET(GettableDOI):
         if doi_url is not None:
             return doi_url
 
-        print('Any DOI found from PsycNET ({0})'.format(url))
+        print('Any DOI found from {journal} ({link})'.format(journal=self.JOURNAL_STR, link=url))
         return None
 
     def get_prev_format(self, *, url: str)->str or None:
@@ -95,9 +95,8 @@ class PsycNET(GettableDOI):
     # -- translator --
     def __translate_prev_format(self, *, doi_url: str):
         """https://doi.org/10.1016/1040-8428(93)90007-Q からhttps://doi.org/を引く。"""
-        ssl_state = SSLStateInPsycNET(doi_url)
-        doi_key = 'doi: '
-        return doi_key+doi_url.replace(ssl_state.get_doi_url(), '').replace(ssl_state.get_psycnet_url(), '')
+        ssl_state = SSLStateInPsycNET()
+        return self.DOI_STR+doi_url.replace(ssl_state.get_doi_url(doi_url), '').replace(ssl_state.get_psycnet_url(doi_url), '')
 
     # -- mdoel --
     def __find_doi_from_anchor_texts(self, url: str):
@@ -106,13 +105,13 @@ class PsycNET(GettableDOI):
         # text: http://dx.doi.org/10.1037/h0045185
         soup = BeautifulSoupModelImpl()
         anchor_texts = soup.get_anchor_texts(url)
-        ssl_state = SSLStateInPsycNET(url)
+        ssl_state = SSLStateInPsycNET()
         # print(anchor_links)
         """取得した全anchor_textのうち，http://dx.doi.org/に合致するものを検索"""
         results = []
         if anchor_texts is not None and len(anchor_texts) > 0:
             for link in anchor_texts:
-                if ssl_state.get_doi_url() in link:
+                if ssl_state.get_doi_url(url) in link:
                     results.append(link)
             # print(results)
             if len(results) > 0:
@@ -127,13 +126,13 @@ class PsycNET(GettableDOI):
         # link: http://psycnet.apa.org/doi/10.1037/h0045185
         soup = BeautifulSoupModelImpl()
         anchor_links = soup.get_anchor_links(url)
-        ssl_state = SSLStateInPsycNET(url)
+        ssl_state = SSLStateInPsycNET()
         # print(anchor_links)
         """取得した全anchor_linkのうち，http://psycnet.apa.org/doi/に合致するものを検索"""
         results = []
         if anchor_links is not None and len(anchor_links) > 0:
             for link in anchor_links:
-                if ssl_state.get_psycnet_url() in link:
+                if ssl_state.get_psycnet_url(url) in link:
                     results.append(link)
             # print(results)
             if len(results) > 0:
