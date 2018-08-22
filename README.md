@@ -1,6 +1,6 @@
 # getdoi
 
-Get the academic article's DOI from citation text.<br><br>
+A tool for getting the academic article's DOI from citation text.<br><br>
 論文引用形式を貼り付けると，ジャーナルサイトを検索し，DOIを出力します。
 
 
